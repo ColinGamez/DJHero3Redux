@@ -19,6 +19,8 @@
 *.map
 X360/
 /DJH3/
+/DJH2Retail/
+/GODSRC/
 DJH3Redux-local/
 *.stock.xml
 *.stock.*
