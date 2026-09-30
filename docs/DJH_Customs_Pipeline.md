@@ -109,6 +109,10 @@ what Quickplay says. Proven pattern for vocals: setlist
 - Exact FAR tail field map (off/size/flags positions vary slightly).
 - Male.FAR entry0 (`animations.txt`, 237B?) data location.
 - FSG container record hash function (for naming carved files properly).
-- `.sdef` text files missed by magic carve (second sweep).
 - XEX-side track DB (does the engine ALSO need the ID somewhere binary?
   Quickplay XML refs suggest XML-driven — test will tell).
+- Note-chart storage: packs carry visuals, FSBs carry audio (no ASCII
+  chart data in either). Charts are binary cues inside FSBs or a central
+  file. Full-clone customs (TESTCARD001 method) work regardless.
+- `.sdef` = binary sample-name→index map + default volumes (NOT text).
+  Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
