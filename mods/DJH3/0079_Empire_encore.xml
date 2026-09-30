@@ -1157,4 +1157,66 @@
   </Club>
 
 
+  <!-- REDEUX vocals club: recording-studio theme, Studio env -->
+  <Club>
+    <Venue>Studio</Venue>
+    <LeaderboardID>571</LeaderboardID>
+    <Unlocks>
+    </Unlocks>
+    <Setlists>
+      <Setlist>
+        <IDTag>Studio Vocals Opening</IDTag>
+        <LeaderboardID>571</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_SetListVocals</Name>
+        <Tracks>
+          <Track>DJH2006</Track>
+          <Track>DJH2010</Track>
+          <Track>DJH2020</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="completesetlist" />
+          <Unlocks>
+          </Unlocks>
+        </Challenge>
+      </Setlist>
+      <Setlist>
+        <IDTag>Studio Vocals Session</IDTag>
+        <LeaderboardID>572</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_SetListVocals</Name>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="100" />
+        <Tracks>
+          <Track>DJH2181</Track>
+          <Track>DJH2195</Track>
+          <Track>DJH2292</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+          <Unlocks>
+          </Unlocks>
+        </Challenge>
+      </Setlist>
+      <Setlist>
+        <IDTag>Studio Vocals Headline</IDTag>
+        <LeaderboardID>573</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_SetListVocals</Name>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="200" />
+        <Tracks>
+          <Track>DJH2304</Track>
+          <Track>DJH2311</Track>
+          <Track>DJH2315</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="completesetlist" />
+          <Unlocks>
+            <MegaMix idtag="Studio Vocals Headline" />
+          </Unlocks>
+        </Challenge>
+      </Setlist>
+    </Setlists>
+  </Club>
+
+
 </Empire>
