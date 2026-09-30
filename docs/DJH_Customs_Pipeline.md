@@ -115,9 +115,13 @@ what Quickplay says. Proven pattern for vocals: setlist
   `AUDIO/Audiotracks/DJHxxxx/DJ_{Beginner,Easy,Medium,Hard,Expert}.xmk`
   (13-20KB) + `Visual_Markup.xmk` + `Vocals.xmk`. Layout: header
   `[ver=2][hash][count][183]`, then `count` 16-byte events with ASCII
-  type tags (DJH2228/Medium: B493 + C237 + A81 + @17 + 8 zero-type +
+  type tags (  DJH2228/Medium: B493 + C237 + A81 + @17 + 8 zero-type +
   1 M-type; B = probable tap notes). Float timestamps in bodies.
-  Difficulty scales count (837 Med → 1267 Exp). Remaining: per-type
-  parameter map (which byte = which button/stream).
+  Difficulty scales count (837 Med → 1267 Exp). B-event anatomy
+  (3101 samples, 5 difficulties): byte0='B', bytes12-13 always zero;
+  byte14 ~always 0 + 12 hits of a difficulty-scaled value (58 Beg /
+  79 Exp, same count — section flag?); byte15 dominated by 0/100 with
+  value 1 strongly Expert-associated (5 Beg → 78 Exp — harder gem
+  type?). Remaining: confirm lane semantics on hardware.
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
