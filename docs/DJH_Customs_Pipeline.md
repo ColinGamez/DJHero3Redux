@@ -150,5 +150,9 @@ semantics audibly (which stream the flipped notes play on).
   @-type = section markers with percent values (67/99/100);
   A-type = difficulty-scaled (81→115) with bitmask byte11 —
   probable star-power/euphoria triggers.
+- Vocals.xmk cracked: same 16B event family, lyrics as text-fragment
+  events in file order with control codes (`@` `=` `?`) and section
+  tags (`Verse 1`, `Chorus`). DJH2228's stream reads clean end to end.
+  Vocal customs = lyric authoring in this shape.
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
