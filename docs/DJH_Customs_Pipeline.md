@@ -154,5 +154,9 @@ semantics audibly (which stream the flipped notes play on).
   events in file order with control codes (`@` `=` `?`) and section
   tags (`Verse 1`, `Chorus`). DJH2228's stream reads clean end to end.
   Vocal customs = lyric authoring in this shape.
+- Visual_Markup.xmk: same family at 10x density (7270 events:
+  B3679/C2169/A1029 + venue-cue text fragments). 6400B header (venue/
+  lighting setup). B/C/A confirmed as the universal event language
+  across notes, vocals, and venue cues.
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
