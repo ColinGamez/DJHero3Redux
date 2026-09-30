@@ -286,14 +286,24 @@
       </Setlist>
       
       <Setlist selectableinfem="no">
-        <IDTag>DANCE SETLIST</IDTag>
-        <Name>STR_DANCE</Name>
-        <Tracks>
-          <Track>DJH2292</Track>
-          <Track>DJH2195</Track>
-          <Track>DJH2181</Track>
-        </Tracks>
-      </Setlist>
+        <Setlist selectableinfem="yes">
+      <IDTag>DANCE SETLIST</IDTag>
+      <Name>STR_DANCE</Name>
+
+      <!-- REDEUX: all 10 dance-marked tracks (was 3) -->
+      <Tracks>
+        <Track>DJH2048</Track>
+        <Track>DJH2165</Track>
+        <Track>DJH2170</Track>
+        <Track>DJH2181</Track>
+        <Track>DJH2193</Track>
+        <Track>DJH2195</Track>
+        <Track>DJH2204</Track>
+        <Track>DJH2206</Track>
+        <Track>DJH2234</Track>
+        <Track>DJH2292</Track>
+      </Tracks>
+    </Setlist>
 
 
     <!-- REDEUX first vocals setlist: all 68 vocal-marked tracks -->
