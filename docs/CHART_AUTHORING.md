@@ -51,7 +51,10 @@ Header size varies (208B DJ charts, 2096B vocals with lyric setup?,
 
 1. **Lane-flip** (proven: forge1 pattern, in-place b15 patch).
 2. **Density edit**: copy Expert B-events at new timestamps into
-   Beginner (timestamps are absolute — no reflow needed).
+   Beginner (timestamps are absolute — no reflow needed). PROVEN:
+   DJH2228 Beginner 928 + 198 Expert-only B-events = 1126-event
+   Beginner+ , mergesorted by timestamp key, count field updated,
+   parses clean.
 3. **New chart**: M + sections + B/C/A events on the 16B grid, header
    count updated. Keep bytes 12-13 zero, b14 = 0 (or match neighbors).
 4. **New vocals**: lyric fragments in file order with `@`/`=`/`?`
