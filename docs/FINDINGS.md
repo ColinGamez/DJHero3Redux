@@ -83,6 +83,9 @@ levers (QA only).
 - Retail registry: 106 IDs, 65 vocal-marked, 19 WIP. Medal design
   carried to DJH3 byte-identical (same IDTags) — progression untouched
   by the sequel team.
+- Registry diff retail→DJH3: ZERO cuts, 13 additions (4 exclusives,
+  `DJH2999 Placeholder`, 8 TST). Full backward compatibility — the
+  sequel only ever added.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
