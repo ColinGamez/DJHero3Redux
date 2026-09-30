@@ -86,3 +86,9 @@ levers (QA only).
   was missing visual packs for TUT2000/2001 — forged by cloning (all
   TUT packs share byte-identical visuals, MD5-verified). Tutorial now
   17/17 complete on the tree.
+- Pack audit (114 referenced IDs vs DJH2 tree): 15 packs missing
+  (exclusives, all TST, plus DJH2221 which HAS audio but no visuals —
+  inverse of the tutorial case). Architectural consequence: the merged
+  library can ONLY boot from the DJH3 side (container + loose
+  override). The DJH2 tree cannot host Redux content. TESTCARD003 is
+  the whole project now.
