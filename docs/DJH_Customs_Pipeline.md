@@ -127,5 +127,12 @@ what Quickplay says. Proven pattern for vocals: setlist
   high b15 values (109-195, one-offs) = probable special gems;
   Expert adds 173 notes (mostly lane 0). Authoring rule of thumb:
   B-events + timestamps + b15 in {0,100} (+1 for spice).
+- C-events (1403 samples): same 16B skeleton (byte0='C', bytes12-13
+  zero). b4-8 = small-int enum topped by 0/1/2 (gesture type —
+  crossfade direction/hold?), b8-12 = float durations topped by
+  0x3D000000/0x3E000000. Counts scale with difficulty (237 Med →
+  335 Exp). b14 carries the same difficulty-scaled flag as B-events
+  (79 on Expert), confirming it as a shared section flag, not lane
+  data. Probable: crossfade/scratch gestures.
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
