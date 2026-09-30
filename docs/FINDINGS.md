@@ -80,6 +80,9 @@ levers (QA only).
   39 ungrouped (dev lists removed for ship); Empire identical 6 clubs
   / 39 setlists. Retail container mirrors proto layout 1:1 (412 FAR,
   233 FSB, 253 BIK, 99 XML) — same tools, same formats.
+- Retail registry: 106 IDs, 65 vocal-marked, 19 WIP. Medal design
+  carried to DJH3 byte-identical (same IDTags) — progression untouched
+  by the sequel team.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
