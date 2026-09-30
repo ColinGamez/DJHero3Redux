@@ -1,0 +1,2514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+environment:
+    None More Black	( NO ENV )
+ 		 Tutorial 01		( Env_Tut.ENT )
+ 		 Quay26			( Env01.ENT )
+ 		 Cube			(Env2)
+ 		 Altitude			(Env3)
+ 		 Env04
+ 		 Budapest			(Env05)
+ 		 Env06
+ 		 Ibiza01			(Env07)
+ 		 Berlin			(Env08)
+ 		 Shanghai			(Env09)
+ 		 LasVegas			(Env10)
+ 		 Ibiza02			(Env11)
+dj:
+    -1 = Random
+    DJ_candy			
+    DJ_cleet	
+		DJ_itch			
+    DJ_jug				
+    DJ_kitty
+		DJ_papa				
+    DJ_trix			
+    DJ_vunda
+		DJ_Lic_DJ01
+		DJ_Lic_DJ02
+		DJ_Lic_DJ03
+		DJ_Lic_DJ04
+		DJ_Lic_DJ05
+		DJ_Lic_DJ06
+		DJ_emp_01
+		DJ_emp_02
+		DJ_emp_03
+		DJ_emp_04
+		DJ_emp_05
+		DJ_emp_06
+    DJ_emp_07
+-->
+<Credits environment="Quay26" dj="DJ_cleet">
+<!-- IF YOU CHANGE THE ENVIRONMENT PLEASE TELL A CODER - ChrisM/WillA-->
+  
+  <!-- creditgroupsize: the font size for credit group text,
+  crediteesize: the font size for creditee text) -->
+  <Font companyfont="Agenda_Bold"
+        creditgroupfont="Agenda_Bold"
+        crediteerolefont="Agenda_Bold"
+        crediteefont="Agenda_Bold"
+        companysize="0.1"
+        creditgroupsize="0.08"
+        crediteerolesize="0.05"
+        crediteesize="0.05"
+        companycolour="1.0,1.0,1.0,1.0"
+        creditgroupcolour="1.0,0.8,0.1,1.0"
+        cretitrolecolour="0.96,0.92,0.56,1.0"
+        crediteecolour="1.0,1.0,1.0,1.0"/>
+  <!-- startx: the start position on the xaxis, 
+  wrapx: the wrap position on the xaxis,
+  starty: the start position on the yaxis,
+  linesbetweenXXX: number of blank lines between groupings,
+  blanklinesize: the 'font' size of blank lines-->
+  <Layout startx="0.0"
+          wrapx="1.0"
+          starty="1.0"
+          linesbetweencompanies="2"
+          linesbetweengroups="2"
+          linesbetweenroles="1"
+          blanklinesize="0.05"
+          companyalign="centre"
+          creditgroupalign="left"
+          crediteealign="left"/>
+  <!-- leadintime: the amount of time before the credits start scrolling
+  leadouttime: the amount of time after the credits have finished to wait before fading out  -->
+  <Timing scrollspeed="0.2" fadeintime="2.0" fadeouttime="2.0" leadintime="2.0" leadouttime="1.0"/>
+
+  <!-- Credits are listed as Company->Group->Creditee -->
+<Company displayname="FREESTYLEGAMES">
+<CreditsGroup displayname="MANAGEMENT AND PRODUCTION">
+<CrediteeRole name="COMMERCIAL DIRECTOR"/>
+<Creditee name="Chris Lee"/>
+
+<CrediteeRole name="DESIGN DIRECTOR"/>
+<Creditee name="Dave Osbourn"/>
+
+<CrediteeRole name="CREATIVE DIRECTOR"/>
+<Creditee name="Jamie Jackson"/>
+
+<CrediteeRole name="TECHNICAL DIRECTOR"/>
+<Creditee name="Phil Hindle"/>
+
+<CrediteeRole name="MUSIC DIRECTOR"/>
+<Creditee name="Dan Neil"/>
+
+<CrediteeRole name="STUDIO MANAGER"/>
+<Creditee name="David Costello"/>
+
+<CrediteeRole name="MUSIC STUDIO MANAGER"/>
+<Creditee name="Kevin McSherry"/>
+
+<CrediteeRole name="DESIGN MANAGER"/>
+<Creditee name="Pete O'Donnell"/>
+
+<CrediteeRole name="ART MANAGER"/>
+<Creditee name="Mike Rutter"/>
+
+<CrediteeRole name="PROGRAMMING TECHNICAL LEAD"/>
+<Creditee name="Alex Zoro"/>
+
+<CrediteeRole name="ART OUTSOURCE MANAGER"/>
+<Creditee name="Nik Love-Gittins"/>
+
+<CrediteeRole name="MUSIC MANAGER"/>
+<Creditee name="Donnison Laing"/>
+
+<CrediteeRole name="HEAD OF DIGITAL PLATFORMS"/>
+<Creditee name="Andy Wafer"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Patrik McCormack"/>
+
+<CrediteeRole name="ASSOCIATE PRODUCER"/>
+<Creditee name="Joel Davey"/>
+<Creditee name="Tim Dunn"/>
+
+<CrediteeRole name="MUSIC PRODUCTION COORDINATOR"/>
+<Creditee name="Rich Orchard"/>
+</CreditsGroup>
+<CreditsGroup displayname="GAME DESIGN">
+<CrediteeRole name="SENIOR DESIGNER"/>
+<Creditee name="Neil Wigfield"/>
+<Creditee name="Paul Turland"/>
+
+<CrediteeRole name="DESIGNER"/>
+<Creditee name="Nathan Coppard"/>
+<Creditee name="Andy Fletcher"/>
+
+<CrediteeRole name="TECHNICAL DESIGNER"/>
+<Creditee name="Alex Comer"/>
+
+<CrediteeRole name="MUSIC GAMEPLAY DESIGNER"/>
+<Creditee name="Chris Gordon"/>
+</CreditsGroup>
+<CreditsGroup displayname="ART">
+<CrediteeRole name="LEAD CHARACTER ARTIST"/>
+<Creditee name="Pete Nicholson"/>
+
+<CrediteeRole name="SENIOR CHARACTER ARTIST"/>
+<Creditee name="Gareth Morrison"/>
+<Creditee name="Rob Nash"/>
+
+<CrediteeRole name="CHARACTER ARTIST"/>
+<Creditee name="Adam Conway"/>
+
+<CrediteeRole name="LEAD ENVIRONMENT ARTIST"/>
+<Creditee name="Phil Bale"/>
+
+<CrediteeRole name="SENIOR ENVIRONMENT ARTIST"/>
+<Creditee name="James Horn"/>
+
+<CrediteeRole name="ENVIRONMENT ARTIST"/>
+<Creditee name="Anthony Callaghan"/>
+<Creditee name="Trevor Walsh"/>
+
+<CrediteeRole name="LEAD UI ARTIST"/>
+<Creditee name="Jonny Severn"/>
+
+<CrediteeRole name="SENIOR UI ARTIST"/>
+<Creditee name="Andy Pallister"/>
+
+<CrediteeRole name="UI ARTIST"/>
+<Creditee name="Rob Hale"/>
+
+<CrediteeRole name="TECHNICAL ARTIST"/>
+<Creditee name="Gareth Harwood"/>
+
+<CrediteeRole name="SENIOR CONCEPT ARTIST"/>
+<Creditee name="Dan Lish"/>
+
+<CrediteeRole name="CONCEPT ARTIST"/>
+<Creditee name="Rebecca Thompson"/>
+<Creditee name="Alexander Ward"/>
+
+<CrediteeRole name="LEAD VISUAL MARKUP ARTIST"/>
+<Creditee name="Jonny Ambrose"/>
+
+<CrediteeRole name="SENIOR VISUAL MARKUP ARTIST"/>
+<Creditee name="Chris Brown"/>
+<Creditee name="Tim Shepherd"/>
+
+<CrediteeRole name="VISUAL MARKUP ARTIST"/>
+<Creditee name="Oliver Harrison"/>
+<Creditee name="Jamie McCarthy"/>
+<Creditee name="Helen Rowell "/>
+<Creditee name="Matt Sanders"/>
+
+<CrediteeRole name="LEAD ANIMATOR"/>
+<Creditee name="Neil Watts"/>
+
+<CrediteeRole name="SENIOR ANIMATOR"/>
+<Creditee name="Jon Baker"/>
+<Creditee name="Rafael Nogues"/>
+
+<CrediteeRole name="ANIMATOR"/>
+<Creditee name="Eren Aydin"/>
+<Creditee name="Junior Jesman"/>
+<Creditee name="James “Jim” Onslow-Major"/>
+<Creditee name="Lucy Webber"/>
+</CreditsGroup>
+<CreditsGroup displayname="PROGRAMMING">
+<CrediteeRole name="LEAD PROGRAMMER"/>
+<Creditee name="Andy Bastable"/>
+<Creditee name="Neil Campbell"/>
+<Creditee name="Alex Darby"/>
+<Creditee name="Neil Palframan"/>
+<Creditee name="Graham Watson"/>
+
+<CrediteeRole name="SENIOR PROGRAMMER"/>
+<Creditee name="Ewan Brown"/>
+<Creditee name="Wayne Coles"/>
+<Creditee name="Ranulf Doswell"/>
+<Creditee name="Robert Dutton"/>
+<Creditee name="Dan Horbury"/>
+<Creditee name="Dave Jones"/>
+<Creditee name="Steven Keen"/>
+<Creditee name="Tom Papados"/>
+<Creditee name="David Reed"/>
+<Creditee name="Jens Restemeier"/>
+<Creditee name="David Spencer"/>
+<Creditee name="Ravin Tharanee"/>
+<Creditee name="Darren Vine"/>
+
+<CrediteeRole name="PROGRAMMER"/>
+<Creditee name="Will Augar"/>
+<Creditee name="Darren Bowen"/>
+<Creditee name="Chris Fuller"/>
+<Creditee name="Damian Furlong"/>
+<Creditee name="George Harris"/>
+<Creditee name="Marc Johnson"/>
+<Creditee name="Rich Lucas"/>
+<Creditee name="Euan MacGregor"/>
+<Creditee name="Chris Mash"/>
+<Creditee name="Ian Norris"/>
+<Creditee name="Paul Rahme"/>
+<Creditee name="Steve Rodham"/>
+<Creditee name="Guy Symonds"/>
+
+<CrediteeRole name="DATA ANALYST"/>
+<Creditee name="Eva Swap"/>
+
+<CrediteeRole name="ENGINEERING CONSULTANCY"/>
+<Creditee name="Andy Yelland"/>
+</CreditsGroup>
+<CreditsGroup displayname="MIDI DESIGN">
+<CrediteeRole name="LEAD MIDI DESIGNER"/>
+<Creditee name="Paul Norris"/>
+
+<CrediteeRole name="SENIOR MIDI DESIGNER"/>
+<Creditee name="Alex “Alfie” Benyon"/>
+
+<CrediteeRole name="MIDI DESIGNER"/>
+<Creditee name="John Crick"/>
+<Creditee name="Matt Flint"/>
+<Creditee name="Mike McLafferty"/>
+<Creditee name="Mark Phillips"/>
+</CreditsGroup>
+<CreditsGroup displayname="MUSIC TEAM">
+<CrediteeRole name="SENIOR DJ REMIXER"/>
+<Creditee name="D-Code"/>
+<Creditee name="Julian Fenner"/>
+<Creditee name="Josh Grigg"/>
+<Creditee name="Al Mawdsley"/>
+<Creditee name="Tom Oke"/>
+<Creditee name="Ofei Sakyi"/>
+
+<CrediteeRole name="SCRATCH DJ"/>
+<Creditee name="DJ Blakey"/>
+<Creditee name="Joe Lenzie"/>
+
+<CrediteeRole name="DJ REMIXER"/>
+<Creditee name="Edward Frankel"/>
+<Creditee name="Mike McLafferty"/>
+<Creditee name="Paul Norris"/>
+<Creditee name="Surya Gumilang"/>
+<Creditee name="Jack Murphy"/>
+<Creditee name="Stephan Vankov"/>
+
+<CrediteeRole name="EXTERNAL REMIXER"/>
+<Creditee name="Rhys Adams"/>
+<Creditee name="Chris Bishop"/>
+<Creditee name="James Clarke"/>
+<Creditee name="Harminder Dhanjal"/>
+<Creditee name="Inka Hero"/>
+<Creditee name="Jeff Langton"/>
+<Creditee name="Roi McCaffer"/>
+<Creditee name="Seamus McNulty"/>
+<Creditee name="George Proudfoot"/>
+<Creditee name="Jake Ridley"/>
+<Creditee name="Sam Ryan"/>
+<Creditee name="Ofosu Sakyi"/>
+<Creditee name="Neil Tollitt"/>
+
+<CrediteeRole name="MIXING AND MASTERING ENGINEER"/>
+<Creditee name="Al Mawdsley"/>
+<Creditee name="Alex “Alfie” Benyon"/>
+
+<CrediteeRole name="IDEA MIX GENERATION"/>
+<Creditee name="George Proudfoot"/>
+<Creditee name="John Crick"/>
+</CreditsGroup>
+<CreditsGroup displayname="FSG QUALITY ASSURANCE">
+<CrediteeRole name="QA MANAGER"/>
+<Creditee name="Joe Lenton"/>
+
+<CrediteeRole name="SENIOR QA LEAD"/>
+<Creditee name="Jon Davies"/>
+<Creditee name="Dan Brock"/>
+<Creditee name="Nick Scurr"/>
+
+<CrediteeRole name="QA TECHNICIAN"/>
+<Creditee name="Dan Hughes"/>
+<Creditee name="Ian Carter"/>
+<Creditee name="Jack Foster"/>
+<Creditee name="Mike Hill"/>
+<Creditee name="Zi Peters"/>
+<Creditee name="Paul Bryer"/>
+
+<CrediteeRole name="ONLINE QA LEAD"/>
+<Creditee name="Rob Pearce"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO ADMIN & OPERATIONS">
+<CrediteeRole name="OPERATIONS DIRECTOR"/>
+<Creditee name="Sheryl Inman"/>
+
+<CrediteeRole name="HR MANAGER"/>
+<Creditee name="Nikki Cooper"/>
+
+<CrediteeRole name="OFFICE MANAGER"/>
+<Creditee name="Renée Harris"/>
+
+<CrediteeRole name="ADMINISTRATIVE ASSISTANT"/>
+<Creditee name="Hannah Chowdhury"/>
+<Creditee name="Jonny Grant"/>
+
+<CrediteeRole name="FINANCE MANAGER"/>
+<Creditee name="Joanne Whiteman"/>
+
+<CrediteeRole name="FINANCE ASSISTANT"/>
+<Creditee name="Rachel Evans"/>
+</CreditsGroup>
+<CreditsGroup displayname="IT MANAGER">
+<Creditee name="Rob Shone"/>
+<Creditee name="Phil Underhill"/>
+</CreditsGroup>
+<CreditsGroup displayname="PRODUCTION BABIES">
+<Creditee name="Astrid Bastable"/>
+<Creditee name="Cameron Brown"/>
+<Creditee name="Cassius Dunn"/>
+<Creditee name="Ethan Michael Flint"/>
+<Creditee name="Juliet Shakira Jones"/>
+<Creditee name="Ellsa Louise Lish "/>
+<Creditee name="Chloe Bella Mash"/>
+<Creditee name="Isabelle Patricia Coldicott O'Donnell"/>
+<Creditee name="Alice Rodham"/>
+<Creditee name="Noah Rutter"/>
+<Creditee name="Louis Severn"/>
+<Creditee name="Phoenix Tharanee"/>
+<Creditee name="Teddy Underhill"/>
+</CreditsGroup>
+<CreditsGroup displayname="FREESTYLEGAMES WOULD LIKE TO THANK:">
+<Creditee name="All our families"/>
+<Creditee name="Ableton"/>
+<Creditee name="Focusrite"/>
+<Creditee name="Loopmasters"/>
+<Creditee name="Neversoft Entertainment"/>
+<Creditee name="Nextbeat"/>
+<Creditee name="Pioneer"/>
+<Creditee name="Rane Corporation"/>
+<Creditee name="Replay Heaven"/>
+<Creditee name="Ryan Holtz"/>
+<Creditee name="Scratch Academy"/>
+<Creditee name="Serrato"/>
+<Creditee name="Strongroom"/>
+<Creditee name="Vicarious Visions Inc."/>
+<Creditee name="Xfer Records"/>
+<Creditee name="ZERO-G Ltd."/>
+</CreditsGroup>
+</Company>
+<Company displayname="ACTIVISION">
+<CreditsGroup displayname="PRODUCTION">
+<CrediteeRole name="EXECUTIVE PRODUCER"/>
+<Creditee name="Jeremiah Maza"/>
+
+<CrediteeRole name="SR. PRODUCER"/>
+<Creditee name="Luke Vernon"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Jason Ades"/>
+
+<CrediteeRole name="ASSOCIATE PRODUCER"/>
+<Creditee name="Doug Grutzmacher"/>
+
+<CrediteeRole name="PRODUCTION COORDINATOR"/>
+<Creditee name="Elias Jimenez"/>
+<Creditee name="Jeremy Kopman"/>
+
+<CrediteeRole name="PRODUCTION ADDITIONAL SUPPORT"/>
+<Creditee name="Andrew Hoffacker"/>
+<Creditee name="Eric Grossman"/>
+<Creditee name="Junko Nakamura"/>
+<Creditee name="Lorena Villa"/>
+<Creditee name="Jane Chung"/>
+<Creditee name="Jordan Limor"/>
+<Creditee name="Peter Kavic"/>
+<Creditee name="Kragen Lum"/>
+<Creditee name="Derek Dutilly"/>
+<Creditee name="Phil Greenspan"/>
+
+<CrediteeRole name="EVP, WW STUDIOS"/>
+<Creditee name="Dave Stohl"/>
+
+<CrediteeRole name="SR. VICE PRESIDENT PRODUCTION"/>
+<Creditee name="Laird Malamed"/>
+
+<CrediteeRole name="VICE PRESIDENT PRODUCTION"/>
+<Creditee name="Keith Kirby"/>
+</CreditsGroup>
+<CreditsGroup displayname="ACTIVISION MUSIC DEPARTMENT">
+<CrediteeRole name="SENIOR VP, BUSINESS AND LEGAL AFFAIRS"/>
+<Creditee name="Susan Genco"/>
+
+<CrediteeRole name="VICE PRESIDENT, MUSIC AFFAIRS"/>
+<Creditee name="Tim Riley"/>
+
+<CrediteeRole name="DIRECTOR OF MUSIC AFFAIRS"/>
+<Creditee name="Brandon Young"/>
+
+<CrediteeRole name="SENIOR MUSIC SUPERVISOR"/>
+<Creditee name="Scott McDaniel"/>
+
+<CrediteeRole name="AUDIO ASSETS SPECIALIST"/>
+<Creditee name="David Iscove"/>
+
+<CrediteeRole name="INTERNATIONAL MUSIC & LICENSING MANAGER"/>
+<Creditee name="Sergio Pimentel"/>
+
+<CrediteeRole name="MUSIC SUPERVISOR"/>
+<Creditee name="Jeremy Volk"/>
+<Creditee name="Mike Phegley"/>
+
+<CrediteeRole name="MUSIC & LICENSING COORDINATOR"/>
+<Creditee name="Katie Sippel"/>
+
+<CrediteeRole name="INTERNATIONAL MUSIC COORDINATOR"/>
+<Creditee name="Colin Doran"/>
+</CreditsGroup>
+<CreditsGroup displayname="LEGAL">
+<CrediteeRole name="CHIEF LEGAL OFFICER"/>
+<Creditee name="Chris Walther"/>
+
+<CrediteeRole name="SENIOR VICE PRESIDENT AND GENERAL COUNSEL"/>
+<Creditee name="Greg Deutsch"/>
+
+<CrediteeRole name="SENIOR DIRECTOR, GOVERNMENT AFFAIRS"/>
+<Creditee name="Phil Terzian"/>
+
+<CrediteeRole name="DIRECTOR"/>
+<Creditee name="Mary Tuck"/>
+
+<CrediteeRole name="SENIOR LITIGATION COUNSEL"/>
+<Creditee name="Travis Stansbury"/>
+
+<CrediteeRole name="SENIOR COUNSEL"/>
+<Creditee name="Kate Ogosta"/>
+
+<CrediteeRole name="COUNSEL"/>
+<Creditee name="Amanda O'Keeffe"/>
+
+<CrediteeRole name="SENIOR PARALEGAL"/>
+<Creditee name="Kap Kang"/>
+
+<CrediteeRole name="PARALEGAL"/>
+<Creditee name="Chris Scaglione"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO CENTRAL">
+<CrediteeRole name="SR. VP OF TECHNOLOGY, CTO"/>
+<Creditee name="Steve Pearce"/>
+
+<CrediteeRole name="EXECUTIVE PRODUCER"/>
+<Creditee name="Mike Ward"/>
+
+<CrediteeRole name="VP ART PRODUCTION"/>
+<Creditee name="Alessandro Tento"/>
+</CreditsGroup>
+<CreditsGroup displayname="ENGINEERING (STUDIO CENTRAL)">
+<CrediteeRole name="VP, TECHNOLOGY"/>
+<Creditee name="Pat Griffith"/>
+
+<CrediteeRole name="SR. DIRECTOR, TECHNOLOGY"/>
+<Creditee name="Matt Wilkinson"/>
+
+<CrediteeRole name="PRINCIPAL TECHNICAL DIRECTOR"/>
+<Creditee name="Wade Brainerd"/>
+
+<CrediteeRole name="TECHNICAL DIRECTOR"/>
+<Creditee name="Naty Hoffman"/>
+
+<CrediteeRole name="TECHNICAL DIRECTOR, EUROPEAN STUDIOS"/>
+<Creditee name="Will Eastcott"/>
+</CreditsGroup>
+<CreditsGroup displayname="CENTRAL DESIGN">
+<CrediteeRole name="VP GAME DESIGN"/>
+<Creditee name="Carl Schnurr"/>
+
+<CrediteeRole name="USER-TESTING MANAGER, UK"/>
+<Creditee name="Alexandre Debrousse"/>
+
+<CrediteeRole name="SR. MANAGER, USER-TESTING"/>
+<Creditee name="Ray Kowalewski"/>
+
+<CrediteeRole name="USER-TESTING SUPERVISOR"/>
+<Creditee name="Phil Keck"/>
+
+<CrediteeRole name="GAME DESIGN ANALYST"/>
+<Creditee name="Jeff Chen"/>
+
+<CrediteeRole name="SR. WRITER"/>
+<Creditee name="Adam Foshko"/>
+
+<CrediteeRole name="USER-TESTING INTERN"/>
+<Creditee name="Chris Grose"/>
+<Creditee name="Howard Ming"/>
+
+<CrediteeRole name="USER-TESTING MODERATOR"/>
+<Creditee name="Vincent Edwards"/>
+<Creditee name="Jeffrey A. Fletcher"/>
+<Creditee name="Jamie Segovia"/>
+
+<CrediteeRole name="DJ ARMY"/>
+<Creditee name="Justin Abrams"/>
+<Creditee name="Jeffrey A. Fletcher"/>
+<Creditee name="Anthony Bellisario"/>
+<Creditee name="Hugo Felix"/>
+<Creditee name="Justin Huthmacher"/>
+<Creditee name="Scott McPherson"/>
+<Creditee name="Jamie Segovia"/>
+<Creditee name="Anthony Tracey"/>
+<Creditee name="Britney Whiten"/>
+
+</CreditsGroup>
+<CreditsGroup displayname="CENTRAL AUDIO">
+<CrediteeRole name="DIRECTOR OF AUDIO"/>
+<Creditee name="Adam Levenson"/>
+
+<CrediteeRole name="TALENT ASSOCIATE"/>
+<Creditee name="Noah Sarid"/>
+
+<CrediteeRole name="TALENT COORDINATOR"/>
+<Creditee name="Stefani Jones"/>
+
+<CrediteeRole name="SR. SOUND DESIGNER"/>
+<Creditee name="Jerry Berlongieri"/>
+
+<CrediteeRole name="SENIOR AUDIO PROGRAMMER"/>
+<Creditee name="Blair Bitonti"/>
+
+<CrediteeRole name="AUDIO PROGRAMMER"/>
+<Creditee name="Jeremy Jessup"/>
+<Creditee name="Steven Merel"/>
+</CreditsGroup>
+<CreditsGroup displayname="ACTIVISION CAPTURE STUDIO">
+<CrediteeRole name="MOTION CAPTURE DIRECTOR"/>
+<Creditee name="Matt Kames"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Nick Falzon"/>
+
+<CrediteeRole name="MOTION CAPTURE SUPERVISOR"/>
+<Creditee name="Michael Jantz"/>
+
+<CrediteeRole name="MOTION CAPTURE LEAD"/>
+<Creditee name="Ben Watson"/>
+
+<CrediteeRole name="TECHNICAL CHARACTER LEAD"/>
+<Creditee name="Stephen Olsen"/>
+
+<CrediteeRole name="ASSOCIATE PRODUCER"/>
+<Creditee name="Evan Button"/>
+
+<CrediteeRole name="3D SCANNING TECHNICAL ARTIST"/>
+<Creditee name="David Bullat II"/>
+<Creditee name="Nick Otto"/>
+<Creditee name="Chris Ellis"/>
+
+<CrediteeRole name="MARKER CLEAN-UP"/>
+<Creditee name="Animation Vertigo"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO CENTRAL OUTSOURCING">
+<CrediteeRole name="DIRECTOR ART PRODUCTION"/>
+<Creditee name="Riccard Linde"/>
+
+<CrediteeRole name="TECHNICAL ART DIRECTOR"/>
+<Creditee name="Mitch Bowler"/>
+
+<CrediteeRole name="PRODUCTION MANAGER"/>
+<Creditee name="Michael Restifo"/>
+
+<CrediteeRole name="ASSOCIATE PRODUCER"/>
+<Creditee name="Christopher Codding"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO CENTRAL ART">
+<CrediteeRole name="TECHNICAL ART DIRECTOR"/>
+<Creditee name="Bernardo Antoniazzi"/>
+
+<CrediteeRole name="SENIOR CHARACTER MODELER"/>
+<Creditee name="Kyle Hefley"/>
+
+<CrediteeRole name="CHARACTER MODELER"/>
+<Creditee name="Nick Lombardo"/>
+<Creditee name="Brad Shortt"/>
+
+<CrediteeRole name="TEXTURE ARTIST"/>
+<Creditee name="Lim Hur"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO CENTRAL ANIMATION">
+<CrediteeRole name="ANIMATION DIRECTOR"/>
+<Creditee name="Paul B. Lee"/>
+</CreditsGroup>
+<CreditsGroup displayname="STUDIO ACTIVISION SHANGHAI">
+<CrediteeRole name="ANIMATION LEAD"/>
+<Creditee name="Tony Zhang (Tianyu)"/>
+
+<CrediteeRole name="ANIMATOR"/>
+<Creditee name="Lulu Dong (Lu)"/>
+<Creditee name="Erin Li (Hongyan)"/>
+<Creditee name="Stephen Shi (Liwen)"/>
+<Creditee name="Jerry Sun (WenRui)"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Kyle Cheng (Hao)"/>
+
+<CrediteeRole name="PROJECT MANAGER"/>
+<Creditee name="Sabrina Xia (JinLei)"/>
+
+<CrediteeRole name="PROJECT ASSOCIATE"/>
+<Creditee name="Edwin Xi (JunLing)"/>
+</CreditsGroup>
+<CreditsGroup displayname="MARKETING">
+<CrediteeRole name="DIRECTOR, GLOBAL BRAND MANAGEMENT"/>
+<Creditee name="Ryan Wener"/>
+
+<CrediteeRole name="GLOBAL BRAND MANAGER"/>
+<Creditee name="Konrad Ribeiro"/>
+<Creditee name="Sekou White"/>
+
+<CrediteeRole name="ASSOCIATE BRAND MANAGER"/>
+<Creditee name="Brandon Zien"/>
+<Creditee name="Michelle Fonseca"/>
+<Creditee name="Dana Buchman"/>
+</CreditsGroup>
+<CreditsGroup displayname="PR">
+<CrediteeRole name="MANAGER, PUBLIC RELATIONS"/>
+<Creditee name="Aaron Grant"/>
+
+<CrediteeRole name="PUBLICIST"/>
+<Creditee name="Jordan Dodge"/>
+<Creditee name="Lindsay Morio"/>
+
+<CrediteeRole name="ASSOCIATE PUBLICIST"/>
+<Creditee name="Andrew Meyer"/>
+</CreditsGroup>
+<CreditsGroup displayname="DIGITAL DISTRIBUTION">
+<CrediteeRole name="SENIOR MANAGER, DIGITAL DISTRIBUTION"/>
+<Creditee name="Hal Paris"/>
+
+<CrediteeRole name="ASSOCIATE BRAND MANAGER"/>
+<Creditee name="Jessie Wan"/>
+</CreditsGroup>
+<CreditsGroup displayname="ACTIVISION EUROPE">
+<CrediteeRole name="SVP, EUROPEAN PUBLISHING"/>
+<Creditee name="Thibaud de St Quentin"/>
+
+<CrediteeRole name="GM-EUROPE - OWNED"/>
+<Creditee name="Pete Royea"/>
+
+<CrediteeRole name="MARKETING MANAGER, HERO EUROPE"/>
+<Creditee name="Ian McClellan"/>
+
+<CrediteeRole name="SENIOR MANAGER, CREATIVE SERVICES"/>
+<Creditee name="Jackie Sutton"/>
+
+<CrediteeRole name="MARKETING MATERIALS MANAGER"/>
+<Creditee name="Steve Clark"/>
+
+<CrediteeRole name="CREATIVE SERVICES PROJECT MANAGER"/>
+<Creditee name="Mark Lugli"/>
+
+<CrediteeRole name="CREATIVE SERVICES PROJECT COORDINATOR"/>
+<Creditee name="Alessandro Cilano"/>
+
+<CrediteeRole name="SENIOR MANAGER, OPERATIONS"/>
+<Creditee name="Kevin D'Souza"/>
+
+<CrediteeRole name="OPERATIONS PLANNER"/>
+<Creditee name="Peter Goff"/>
+
+<CrediteeRole name="WEB DESIGNER"/>
+<Creditee name="Jennifer Nakamura"/>
+
+<CrediteeRole name="GRAPHIC DESIGNER"/>
+<Creditee name="Maly Bun"/>
+<Creditee name="Minna Hu"/>
+<Creditee name="Jonathan Valiente"/>
+<Creditee name="Damon Belanger"/>
+
+<CrediteeRole name="GUITAR HERO GBM - ITALY"/>
+<Creditee name="Stefania Vanerio"/>
+
+<CrediteeRole name="PR HEAD - ITALY"/>
+<Creditee name="Francesca Carotti"/>
+
+<CrediteeRole name="TRADE MARKETING MANAGER - ITALY"/>
+<Creditee name="Antonio Masiello"/>
+
+<CrediteeRole name="MARKET OPERATION MANAGER - ITALY"/>
+<Creditee name="Angelo Caronni"/>
+
+<CrediteeRole name="GENERAL MANAGER SPAIN"/>
+<Creditee name="Carlos Pombo"/>
+
+<CrediteeRole name="BRAND MANAGER SPAIN"/>
+<Creditee name="Mónica Guerra"/>
+
+<CrediteeRole name="PR MANAGER SPAIN"/>
+<Creditee name="Adriana Negueruela"/>
+
+<CrediteeRole name="BRAND MANAGER - GERMANY"/>
+<Creditee name="Manuel Bronner"/>
+
+<CrediteeRole name="SENIOR TRADE MARKETING MANAGER - GERMANY"/>
+<Creditee name="Anja Wagner"/>
+
+<CrediteeRole name="TRADE MARKETING MANAGER - GERMANY"/>
+<Creditee name="David Platte"/>
+
+<CrediteeRole name="BRAND MANAGER - NORDIC"/>
+<Creditee name="Nikke Lindner"/>
+
+<CrediteeRole name="HEAD OF PR NORDIC SPECIALIST"/>
+<Creditee name="Petra Tell"/>
+
+<CrediteeRole name="PR MANAGER MAINSTREAM - NORDIC"/>
+<Creditee name="Janette Cohen Scalie"/>
+
+<CrediteeRole name="HR DIRECTOR"/>
+<Creditee name="Kristen Bufalino"/>
+
+<CrediteeRole name="HR MANAGER"/>
+<Creditee name="Ann Grealy"/>
+</CreditsGroup>
+
+<CreditsGroup displayname="ACTIVISION UK">
+<CrediteeRole name="VP, UK & IRELAND"/>
+<Creditee name="Andrew Brown"/>
+
+<CrediteeRole name="BRAND MANAGER"/>
+<Creditee name="Jon Edney"/>
+
+<CrediteeRole name="TRADE MARKETING"/>
+<Creditee name="Keith Cox"/>
+
+<CrediteeRole name="PR MANAGER"/>
+<Creditee name="Johanna Hakala"/>
+</CreditsGroup>
+
+<CreditsGroup displayname="STUDIO PLANNING OPERATIONS">
+<CrediteeRole name="VP, STUDIO OPERATIONS"/>
+<Creditee name="Marcus Sanford"/>
+
+<CrediteeRole name="SENIOR DIRECTOR, STUDIO OPERATIONS"/>
+<Creditee name="Stuart Roch"/>
+
+<CrediteeRole name="STUDIO PLANNING MANAGER"/>
+<Creditee name="Anthony Ting"/>
+
+<CrediteeRole name="DIRECTOR, EUROPEAN PARTNER RELATIONSHIPS"/>
+<Creditee name="Samuel Peterson"/>
+
+<CrediteeRole name="TRAFFIC CONTROLLER"/>
+<Creditee name="Sheilah Brooks"/>
+
+<CrediteeRole name="ASSET MANAGER"/>
+<Creditee name="Todd Mueller"/>
+
+<CrediteeRole name="ADMINISTRATOR/GREENLIGHT COORDINATOR"/>
+<Creditee name="Jennifer Hare"/>
+</CreditsGroup>
+<CreditsGroup displayname="ART SERVICES">
+<CrediteeRole name="ART SERVICES MANAGER"/>
+<Creditee name="Todd Pruyn"/>
+
+<CrediteeRole name="ART SERVICES ASSOCIATE - VIDEO SPECIALIST"/>
+<Creditee name="Ben Szeto"/>
+
+<CrediteeRole name="ART SERVICES ASSOCIATE - SCREENSHOT/3D SPECIALIST"/>
+<Creditee name="Mike Hunau"/>
+
+<CrediteeRole name="ART SERVICES LEAD"/>
+<Creditee name="Kevin Sandlow"/>
+
+<CrediteeRole name="ART SERVICES COORDINATOR"/>
+<Creditee name="David Asadourian"/>
+<Creditee name="Josh Morris"/>
+<Creditee name="Christopher Reinhart"/>
+<Creditee name="Andrew Worshill"/>
+
+<CrediteeRole name="ART SERVICES VIDEO LAB TECHNICIAN"/>
+<Creditee name="Joi Tanner"/>
+</CreditsGroup>
+<CreditsGroup displayname="BUSINESS DEVELOPMENT">
+<CrediteeRole name="HEAD OF BUSINESS DEVELOPMENT"/>
+<Creditee name="Dave Anderson"/>
+
+<CrediteeRole name="MANAGER, CORPORATE ALLIANCES"/>
+<Creditee name="Tim Steudler"/>
+
+<CrediteeRole name="ASSOCIATE MANAGER, CORPORATE ALLIANCES"/>
+<Creditee name="Nikki Pounds"/>
+</CreditsGroup>
+<CreditsGroup displayname="MARKETING COMMUNICATIONS">
+<CrediteeRole name="COORDINATOR, MARKETING COMMUNICATIONS"/>
+<Creditee name="Vickie Farmer"/>
+
+<CrediteeRole name="SENIOR DIRECTOR, CONSUMER INSIGHTS"/>
+<Creditee name="Spencer Beidelman"/>
+
+<CrediteeRole name="SR. DIRECTOR, MARKETING COMMUNICATIONS"/>
+<Creditee name="Jack Oh"/>
+</CreditsGroup>
+<CreditsGroup displayname="INTERACTIVE MARKETING">
+<CrediteeRole name="VP MEDIA, DIGITAL AND PARTNERSHIPS"/>
+<Creditee name="Amy Stettler"/>
+
+<CrediteeRole name="SR. MANAGER, INTERACTIVE MARKETING"/>
+<Creditee name="Clinton Wu"/>
+
+<CrediteeRole name="COORDINATOR, INTERACTIVE MARKETING"/>
+<Creditee name="Viet Nguyen"/>
+
+<CrediteeRole name="ONLINE ASSOCIATE, INTERACTIVE MARKETING"/>
+<Creditee name="Delphine Pham"/>
+
+<CrediteeRole name="SR. WEB PRODUCER, INTERACTIVE MARKETING"/>
+<Creditee name="Penny Jewkes"/>
+</CreditsGroup>
+<CreditsGroup displayname="ACTIVISION WOULD LIKE TO THANK:">
+<Creditee name="Bobby Kotick"/>
+<Creditee name="Mike Griffith"/>
+<Creditee name="Ron Doornink"/>
+<Creditee name="Thomas Tippl"/>
+<Creditee name="Brian Kelly"/>
+<Creditee name="Brian Ward"/>
+<Creditee name="Steve Ackrich"/>
+<Creditee name="Brian Hodous"/>
+<Creditee name="Dave Stohl"/>
+<Creditee name="Maria Stipp"/>
+<Creditee name="Joerg Trouvain"/>
+<Creditee name="John Watts"/>
+<Creditee name="Steve Young"/>
+<Creditee name="Josh Taub"/>
+<Creditee name="Laura Hoegler"/>
+<Creditee name="Jennifer Sullivan"/>
+<Creditee name="Beverly Liggett"/>
+<Creditee name="Wade Pottinger"/>
+<Creditee name="Sean Dexheimer"/>
+<Creditee name="Molly Hinchey"/>
+<Creditee name="George Rose"/>
+<Creditee name="Dave Anderson"/>
+<Creditee name="John Dillulo"/>
+<Creditee name="Maryanne Lataif"/>
+<Creditee name="Michelle Schroder"/>
+<Creditee name="Victor Lopez"/>
+<Creditee name="Jay Komas"/>
+<Creditee name="Neil Armstrong"/>
+<Creditee name="Peter Oey"/>
+<Creditee name="Steve Wereb"/>
+<Creditee name="Todd Szalla"/>
+<Creditee name="Nikunj Dalal"/>
+<Creditee name="Kathryn Murray"/>
+<Creditee name="Chris Cosby"/>
+<Creditee name="Chris Palmisano"/>
+<Creditee name="Reina Cano"/>
+<Creditee name="Jost Garrett"/>
+<Creditee name="Jody Coglianese"/>
+<Creditee name="Bruce Hack"/>
+<Creditee name="Rocco and Bob Loya"/>
+<Creditee name="Mark Gordon"/>
+<Creditee name="Kevin and Trinity at Monster/Beats by Dr. Dre"/>
+<Creditee name="Brad Jakeman"/>
+<Creditee name="Todd Harvey"/>
+<Creditee name="Susan Hallock"/>
+<Creditee name="Karen Starr"/>
+<Creditee name="Jill Barry"/>
+<Creditee name="Marina Kosten"/>
+<Creditee name="Mike Swiontkowski"/>
+<Creditee name="Lynn Ballew"/>
+<Creditee name="Monique Creamer"/>
+<Creditee name="Elías Jiménez, III"/>
+<Creditee name="Roman Daniel Jiménez"/>
+<Creditee name="Jared Yeager"/>
+</CreditsGroup>
+</Company>
+<Company displayname="QUALITY ASSURANCE">
+<CreditsGroup displayname="QUALITY ASSURANCE">
+<CrediteeRole name="DIRECTOR, QUALITY ASSURANCE"/>
+<Creditee name="Christopher D. Wilson"/>
+<Creditee name="Jason Wong"/>
+</CreditsGroup>
+<CreditsGroup displayname="QUALITY ASSURANCE, FUNCTIONALITY">
+<CrediteeRole name="QA, PROJECT LEAD"/>
+<Creditee name="Louis-Thomas Béland, Dayshift"/>
+<Creditee name="Simon Duquet Galarneau, Nightshift"/>
+<CrediteeRole name="QA, FLOOR LEAD"/>
+<Creditee name="François Audette, Dayshift"/>
+<Creditee name="Alice Giroux Robitaille, Dayshift"/>
+<Creditee name="Guillaume Lemieux, Dayshift"/>
+<Creditee name="Jonathan Lachance, Nightshift"/>
+<Creditee name="Isabelle Bouchard, Nightshift"/>
+<CrediteeRole name="QA TESTER"/>
+<Creditee name="Conan Arseneau"/>
+<Creditee name="Karelle Arseneault"/>
+<Creditee name="Alexis Audet"/>
+<Creditee name="Martin Beauvais"/>
+<Creditee name="Lukaël Bélanger"/>
+<Creditee name="Fréderic Bertiaux"/>
+<Creditee name="Alexandre Bérubé"/>
+<Creditee name="François Bouchard-Jean"/>
+<Creditee name="Jean-François Boutin"/>
+<Creditee name="Patrick Boutin"/>
+<Creditee name="Maxime Carrier"/>
+<Creditee name="Jonathan Charest"/>
+<Creditee name="François Chéné"/>
+<Creditee name="Éric Demers"/>
+<Creditee name="Kaven Desbois"/>
+<Creditee name="Jonathan Eve"/>
+<Creditee name="Jason Gagné"/>
+<Creditee name="Guillaume Gagné Gauthier"/>
+<Creditee name="Jean-François Giguère"/>
+<Creditee name="Alexandre Gingras"/>
+<Creditee name="Christian Giroux"/>
+<Creditee name="Marylène Groleau"/>
+<Creditee name="Guillaume Joannette"/>
+<Creditee name="Nicolas Kiffer"/>
+<Creditee name="Anne-Sophie Laberge"/>
+<Creditee name="Charles Laroche"/>
+<Creditee name="Simon Leclair"/>
+<Creditee name="Christian Liard"/>
+<Creditee name="Philippe Mayrand"/>
+<Creditee name="Raphaël Mercier Leclerc"/>
+<Creditee name="Pierre Moreau"/>
+<Creditee name="Christian Morin"/>
+<Creditee name="Jean-Sébastien Nicaise"/>
+<Creditee name="Marc-Antoine Pelletier"/>
+<Creditee name="Damien Paquin"/>
+<Creditee name="Josianne Pelletier"/>
+<Creditee name="Raphaël Pothier"/>
+<Creditee name="Nickolas Pozer"/>
+<Creditee name="Philip Roy"/>
+<Creditee name="Pascal Thibault-Larouche"/>
+<Creditee name="Patrice Vachon"/>
+<Creditee name="Emily Villeneuve"/>
+<Creditee name="Sébastien Bisson"/>
+<Creditee name="Alex Boisjoly-Martin"/>
+<Creditee name="Geneviève Côté"/>
+<Creditee name="Pier-Luc Milhomme"/>
+<Creditee name="Marc Plamondon"/>
+<Creditee name="Dominic Poirier"/>
+<Creditee name="Julian Pons"/>
+<Creditee name="Maxime Pouliot"/>
+<Creditee name="Joffrey Baribeau"/>
+<Creditee name="Joey Champoux"/>
+<Creditee name="Joey Booth"/>
+<Creditee name="Jean-François Falardeau"/>
+<Creditee name="Gabriel Lacasse"/>
+<Creditee name="Samuel Le May"/>
+<Creditee name="Mathieu Parent"/>
+<Creditee name="Antoine Racicot"/>
+<Creditee name="Mathieu St-Pierre"/>
+<Creditee name="Martin Richard-Cerda"/>
+<Creditee name="Jean-Philippe Marchand"/>
+<Creditee name="Julien Rivard-Plamondon"/>
+<Creditee name="Marc-André Thibeault"/>
+<Creditee name="Nathaniel Morasse Gaudreau"/>
+<Creditee name="Simon Levesque"/>
+<Creditee name="Samuel Venière"/>
+<Creditee name="Mathieu Hunter"/>
+<CrediteeRole name="QA DATABASE SPECIALIST"/>
+<Creditee name="Geneviève Bédard"/>
+<Creditee name="Julien Gagnon-Bourassa"/>
+<Creditee name="Jean-François Le Houillier"/>
+<Creditee name="Stéphanie Verret-Roy"/>
+<CrediteeRole name="QA DATABASE TECHNICIAN"/>
+<Creditee name="Guillaume Boucher-Vidal"/>
+<CrediteeRole name="QA SENIOR PROJECT LEAD"/>
+<Creditee name="Jonathan Piché, Dayshift"/>
+<Creditee name="Albert Yao, Dayshift"/>
+<Creditee name="Guillaume Weber, Nightshift"/>
+<CrediteeRole name="QA MANAGER"/>
+<Creditee name="Matt McClure"/>
+<CrediteeRole name="QA IT TECHNICIAN"/>
+<Creditee name="Sébastien Aubut"/>
+<Creditee name="Nicolas Verret"/>
+<Creditee name="Nicolas M. Careau"/>
+<CrediteeRole name="QA IT LEAD"/>
+<Creditee name="Étienne Dubé"/>
+<CrediteeRole name="ADMIN ASSISTANT"/>
+<Creditee name="Josée Laboissonnière"/>
+<CrediteeRole name="HR/OPS SUPERVISOR"/>
+<Creditee name="Antoine Lépine"/>
+</CreditsGroup>
+<CreditsGroup displayname="TECHNICAL REQUIREMENT GROUP">
+<CrediteeRole name="TRG MANAGER"/>
+<Creditee name="John Rosser"/>
+<CrediteeRole name="TRG SUBMISSION LEAD"/>
+<Creditee name="Daniel L. Nichols"/>
+<Creditee name="Christopher Norman"/>
+<CrediteeRole name="TRG SUBMISSION ADJUTANT"/>
+<Creditee name="Dustin Carter"/>
+<Creditee name="Fausto Lorenzano"/>
+<CrediteeRole name="TRG SENIOR PLATFORM LEAD"/>
+<Creditee name="Marc Villanueva"/>
+<Creditee name="Teak Holley"/>
+<Creditee name="Kyle Carey"/>
+<Creditee name="Tomohiro Shikami"/>
+<Creditee name="Sasan “Sauce” Helmi"/>
+<Creditee name="Todd Sutton"/>
+<CrediteeRole name="TRG PLATFORM LEAD"/>
+<Creditee name="Zac Blitz"/>
+<Creditee name="Eric Stanzione"/>
+<Creditee name="Menas Kapitsas"/>
+<Creditee name="Brian Bensi"/>
+<Creditee name="John McCurry"/>
+<Creditee name="Benjamin Abel"/>
+<Creditee name="Jared Baca"/>
+<Creditee name="James Rose"/>
+<CrediteeRole name="TRG TESTER"/>
+<Creditee name="Alex Hirsch"/>
+<Creditee name="Kevin Arreaga"/>
+<Creditee name="Edgar Sunga"/>
+<Creditee name="Jason Garza"/>
+<Creditee name="Jonathan Butcher"/>
+<Creditee name="Josue Medina"/>
+<Creditee name="Mark Ruzicka"/>
+<Creditee name="Pisoth Chham"/>
+<Creditee name="Rhonda Cox"/>
+<Creditee name="Richard Tom"/>
+<Creditee name="Ellis Walker"/>
+<Creditee name="Jeremy Hibnick"/>
+<Creditee name="Martin Quinn"/>
+<Creditee name="David Quevedo"/>
+<Creditee name="Jake Muir"/>
+<Creditee name="Jovani Banuelos"/>
+<Creditee name="Albert Villena"/>
+<Creditee name="Dylan Hendren"/>
+<Creditee name="Alexis Ruegger"/>
+<Creditee name="Andrew Grass"/>
+<Creditee name="Colin Kawakami"/>
+<Creditee name="George Mormile"/>
+<Creditee name="Jennifer Goodman"/>
+<Creditee name="Johnny Burt"/>
+<Creditee name="Joshua Singleton"/>
+<Creditee name="Keith Kodama"/>
+<Creditee name="Kirt Sanchez"/>
+<Creditee name="Michael Chinn"/>
+<Creditee name="Mike Juarez"/>
+<Creditee name="Paco Erskine"/>
+<Creditee name="Patrick De Palma"/>
+<Creditee name="Scott Borakove"/>
+<Creditee name="Steve Medeiros"/>
+<Creditee name="Todd Baron"/>
+<Creditee name="William Fortier"/>
+<Creditee name="Altheria Weaver"/>
+<Creditee name="Christopher Adams"/>
+<Creditee name="Eddie Fernando Araujo"/>
+<Creditee name="Jeff Barbera"/>
+<Creditee name="Jeff Koyama"/>
+<Creditee name="Jermaine Fordham"/>
+<Creditee name="Joe Pardo"/>
+<Creditee name="Kurt Hamm"/>
+<Creditee name="Lucas Goodman"/>
+<Creditee name="Michael Laursen"/>
+<Creditee name="Michael Chan"/>
+<Creditee name="Miguel Arevalo"/>
+<Creditee name="Mike Spragg"/>
+<Creditee name="Robert Sharpe"/>
+<Creditee name="Ryan French"/>
+<Creditee name="Ryan Meloncon"/>
+<Creditee name="Santiago Salvador"/>
+<Creditee name="Steve McIlroy"/>
+<Creditee name="Zach Smith"/>
+<Creditee name="Zeena Jointer"/>
+<CrediteeRole name="MANAGER, QA LABS"/>
+<Creditee name="Chris Keim"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA CERTIFICATION GROUP">
+<CrediteeRole name="QA CERTIFICATION GROUP SENIOR LEAD"/>
+<Creditee name="Brandon Valdez"/>
+<Creditee name="Cyra Talton"/>
+<CrediteeRole name="QA CERTIFICATION GROUP PROJECT LEAD"/>
+<Creditee name="Matt Ryan"/>
+<CrediteeRole name="QA CERTIFICATION GROUP TESTER"/>
+<Creditee name="Jonathan Mack"/>
+<Creditee name="Christian Vasco"/>
+<Creditee name="Chris Mintzias"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA NETWORK GROUP">
+<CrediteeRole name="QA NETWORK GROUP PROJECT LEAD"/>
+<Creditee name="Jessie Jones"/>
+<Creditee name="Leonard Rodriguez"/>
+<CrediteeRole name="QA NETWORK GROUP SENIOR TESTER"/>
+<Creditee name="Bryan Chice"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA MULTIPLAYER LAB">
+<CrediteeRole name="QA MULTIPLAYER LAB LEAD"/>
+<Creditee name="Garrett Oshiro"/>
+<CrediteeRole name="QA MPL SENIOR TESTER"/>
+<Creditee name="Shamen'e Childress"/>
+<CrediteeRole name="QA MPL TESTER"/>
+<Creditee name="Matthew Brannon"/>
+<Creditee name="Dov Carson"/>
+<Creditee name="John Getty"/>
+<Creditee name="Nicolas Gram"/>
+<Creditee name="Bobby Jones"/>
+<Creditee name="Brian Lay"/>
+<Creditee name="Emmanuel Salva Cruz"/>
+<Creditee name="Christian Vasco"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA AUDIO VISUAL LAB">
+<CrediteeRole name="QA AV LAB SENIOR PROJECT LEAD"/>
+<Creditee name="Victor Durling"/>
+<CrediteeRole name="QA AV LAB SENIOR TESTER"/>
+<Creditee name="Cliff Hooper"/>
+<CrediteeRole name="QA AV LAB TESTER"/>
+<Creditee name="Delven Rutledge"/>
+<Creditee name="Ryan Visteen"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA-MIS">
+<CrediteeRole name="QA-MIS MANAGER"/>
+<Creditee name="Dave Garcia-Gomez"/>
+<CrediteeRole name="QA-MIS SENIOR TECHNICIAN"/>
+<Creditee name="Brian Martin"/>
+<CrediteeRole name="QA-MIS TECHNICIAN"/>
+<Creditee name="Teddy Hwang"/>
+<Creditee name="Jeremy Torres"/>
+<Creditee name="Lawrence Wei"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA MASTERING LAB">
+<CrediteeRole name="SENIOR LEAD TECHNICIAN, MASTERING LAB"/>
+<Creditee name="Sean Kim"/>
+<CrediteeRole name="SENIOR MASTERING LAB TECHNICIAN"/>
+<Creditee name="Danny Feng"/>
+<CrediteeRole name="MASTERING LAB TECHNICIAN"/>
+<Creditee name="Tyree Deramus"/>
+<Creditee name="Jose Hernandez"/>
+<Creditee name="Kai Hsu"/>
+<Creditee name="Rodrigo Magana"/>
+<Creditee name="Ronald Ruhl"/>
+<Creditee name="Gary Washington"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA DATABASE ADMINISTRATION GROUP">
+<CrediteeRole name="SENIOR LEAD DATABASE ADMINISTRATOR"/>
+<Creditee name="Jeremy Richards"/>
+<CrediteeRole name="LEAD DATABASE ADMINISTRATOR"/>
+<Creditee name="Kelly Huffine"/>
+<CrediteeRole name="DATABASE TECHNICIAN"/>
+<Creditee name="Christopher Shanley"/>
+<Creditee name="Timothy Toledo"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA PMO GROUP">
+<CrediteeRole name="MANAGER, QA PMO"/>
+<Creditee name="Jeremy Shortell"/>
+<CrediteeRole name="SENIOR PROJECT LEAD, QA PMO"/>
+<Creditee name="Paul Colbert"/>
+<CrediteeRole name="PROJECT LEAD, QA PMO"/>
+<Creditee name="Kelly Wentzel"/>
+</CreditsGroup>
+<CreditsGroup displayname="CUSTOMER SUPPORT">
+<CrediteeRole name="SENIOR MANAGER, GLOBAL CUSTOMER SUPPORT"/>
+<Creditee name="Mike Hill"/>
+<CrediteeRole name="MANAGER, CALL CENTER"/>
+<Creditee name="Gary Bolduc"/>
+<CrediteeRole name="SUPERVISOR, TECHNICAL OPERATIONS"/>
+<Creditee name="Kirk McNesby"/>
+<CrediteeRole name="SUPERVISOR, SERVICE PLANNING AND READINESS"/>
+<Creditee name="Randolph D'Amore"/>
+<CrediteeRole name="ADMINISTRATOR, WEBSITE AND KNOWLEDGEBASE"/>
+<Creditee name="Sam Akiki"/>
+<CrediteeRole name="SUPERVISOR, ESCALATION SUPPORT"/>
+<Creditee name="Russell Johnson"/>
+<CrediteeRole name="COORDINATOR, WARRANTY SUPPORT"/>
+<Creditee name="Mike Dangerfield"/>
+<CrediteeRole name="COORDINATOR, CUSTOMER SUPPORT"/>
+<Creditee name="Ismael Garcia"/>
+<Creditee name="Dov Carson"/>
+<Creditee name="Guillermo Hernandez"/>
+</CreditsGroup>
+<CreditsGroup displayname="QA SPECIAL THANKS">
+<Creditee name="Glenn Vistante"/>
+<Creditee name="Calvin Wong"/>
+<Creditee name="Jason Levine"/>
+<Creditee name="Chris Keim"/>
+<Creditee name="Nuria Andres"/>
+<Creditee name="Nadine Theuzillot"/>
+<Creditee name="Marc Williams"/>
+<Creditee name="Dee Brown"/>
+<Creditee name="Mark Jutras"/>
+<Creditee name="Sam Piché-Boyle"/>
+<Creditee name="Jack McClure"/>
+<Creditee name="Patrick Holton"/>
+<Creditee name="Zola McClure"/>
+<Creditee name="Annik Marcotte"/>
+<Creditee name="Isabelle Paradis"/>
+<Creditee name="Claudia Desmarais"/>
+<Creditee name="Christelle Légaré"/>
+<Creditee name="Katie Purcell"/>
+<Creditee name="DJ Benny"/>
+</CreditsGroup>
+<CreditsGroup displayname="PRODUCTION SERVICES - EUROPE">
+<CrediteeRole name="SENIOR DIRECTOR, LOCALIZATION"/>
+<Creditee name="Barry Kehoe"/>
+<CrediteeRole name="LOCALIZATION MANAGER"/>
+<Creditee name="Fiona Ebbs"/>
+<CrediteeRole name="LOCALIZATION PROJECT MANAGER"/>
+<Creditee name="Conor Harlow"/>
+<CrediteeRole name="LOCALIZATION COORDINATOR"/>
+<Creditee name="Barry O'Dwyer"/>
+<CrediteeRole name="LOCALIZATION QA MANAGER"/>
+<Creditee name="David Hickey"/>
+<CrediteeRole name="LOCALIZATION QA ASSISTANT"/>
+<Creditee name="Yvonne Costello"/>
+<CrediteeRole name="LOCALIZATION QA LEAD"/>
+<Creditee name="Raúl López"/>
+<Creditee name="Didier Canovas"/>
+<CrediteeRole name="LOCALIZATION QA FLOOR LEAD"/>
+<Creditee name="David Arias"/>
+<Creditee name="Gregoire Leger"/>
+<CrediteeRole name="LOCALIZATION QA TESTER"/>
+<Creditee name="Alberto Correa"/>
+<Creditee name="Andreas Tauber"/>
+<Creditee name="Anthony Keane"/>
+<Creditee name="Dario DiSpirito"/>
+<Creditee name="David Arias"/>
+<Creditee name="Facundo Rodriquez"/>
+<Creditee name="Florent Parage"/>
+<Creditee name="Franck Morisseau"/>
+<Creditee name="Gianfranco Mellone"/>
+<Creditee name="Gregory Messmer"/>
+<Creditee name="Ildefonso Ranchal"/>
+<Creditee name="Ingrid Byrne"/>
+<Creditee name="Ivar Rocha Arias"/>
+<Creditee name="Marcos Luqui"/>
+<Creditee name="Mats Forsell"/>
+<Creditee name="Naiara Mitxelena"/>
+<Creditee name="Peter Kremer"/>
+<Creditee name="Raffaele LaGala"/>
+<Creditee name="Sandra Schliszo"/>
+<Creditee name="Sergio Redondo"/>
+<Creditee name="Stefano Meneto"/>
+<CrediteeRole name="BURN LAB TECHNICIAN"/>
+<Creditee name="Todd Lambert"/>
+<Creditee name="Mark Stockdale"/>
+<CrediteeRole name="IT NETWORK TECHNICIAN"/>
+<Creditee name="Fergus Lindsay"/>
+<CrediteeRole name="LOCALIZATION TOOLS AND SUPPORT"/>
+<Creditee name="Provided by Stephanie Deming & XLOC, inc"/>
+</CreditsGroup>
+</Company>
+<Company displayname="NEVERSOFT">
+<CreditsGroup displayname="MOTION CAPTURE">
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Chris Parise"/>
+<CrediteeRole name="MOCAP TECHNICIAN"/>
+<Creditee name="Sean Watson"/>
+<CrediteeRole name="ANIMATOR"/>
+<Creditee name="Kristin Gallagher"/>
+<CrediteeRole name="CINEMATICS LEAD"/>
+<Creditee name="Jeff Swenty"/>
+<CrediteeRole name="MOCAP LEAD"/>
+<Creditee name="Kristina Adelmeyer"/>
+</CreditsGroup>
+</Company>
+<Company displayname="REDOCTANE">
+<CreditsGroup displayname="HARDWARE">
+<CrediteeRole name="VP OF HARDWARE"/>
+<Creditee name="Lee Guinchard"/>
+<CrediteeRole name="EXECUTIVE HARDWARE PRODUCER"/>
+<Creditee name="Stephen Withers"/>
+<CrediteeRole name="ELECTRONIC ENGINEER DIRECTOR"/>
+<Creditee name="Duncan Miller"/>
+<CrediteeRole name="DIRECTOR OF HARDWARE"/>
+<Creditee name="Carter Lee"/>
+<CrediteeRole name="SR. MANAGER, GLOBAL FREIGHT"/>
+<Creditee name="Candy Lu"/>
+<CrediteeRole name="GLOBAL SHIPPING PARTNER"/>
+<Creditee name="Anna Shi"/>
+<CrediteeRole name="NORTH AMERICAN LOGISTICS MANAGER"/>
+<Creditee name="Scott Yang"/>
+<CrediteeRole name="HARDWARE PROGRAM DIRECTOR"/>
+<Creditee name="David Dykes"/>
+<CrediteeRole name="PRINCIPLE FIRMWARE ENGINEER"/>
+<Creditee name="Tim Clark"/>
+<CrediteeRole name="ELECTRONICS ENGINEER"/>
+<Creditee name="Bashir Ziady"/>
+<Creditee name="Bing Xu"/>
+<CrediteeRole name="MECHANICAL ENGINEER"/>
+<Creditee name="Music Xu"/>
+<Creditee name="David Zhu"/>
+<CrediteeRole name="PRODUCTION ENGINEERING MANAGER"/>
+<Creditee name="Jared Chan"/>
+<CrediteeRole name="MECHANICAL ENGINEERING MANAGER"/>
+<Creditee name="Colin Zen"/>
+<CrediteeRole name="ELECTRONICS ENGINEER MANAGER"/>
+<Creditee name="Thomas Tan"/>
+<CrediteeRole name="CERTIFICATION MANAGER"/>
+<Creditee name="Shelley Zhou"/>
+<CrediteeRole name="FIRMWARE ENGINEER"/>
+<Creditee name="Herman Liu"/>
+<CrediteeRole name="PRODUCTION ENGINEER"/>
+<Creditee name="Kili Duan"/>
+<CrediteeRole name="PRODUCTION CONSULTANT"/>
+<Creditee name="Chris Foulger"/>
+<CrediteeRole name="PRODUCTION DESIGNER"/>
+<Creditee name="Cody Lee"/>
+<CrediteeRole name="ADMINISTRATOR"/>
+<Creditee name="June Xie"/>
+<CrediteeRole name="SENIOR HARDWARE PRODUCER"/>
+<Creditee name="Cendru Engstrom"/>
+<CrediteeRole name="HARDWARE PRODUCER"/>
+<Creditee name="Ted Lange"/>
+<CrediteeRole name="ASSOCIATE HARDWARE PRODUCER"/>
+<Creditee name="Casimero Agustin"/>
+<CrediteeRole name="HARDWARE PRODUCTION COORDINATOR"/>
+<Creditee name="Melanie Cox"/>
+<Creditee name="Raul Renteria"/>
+<Creditee name="Mark Johnson"/>
+<Creditee name="Betty Shang"/>
+<CrediteeRole name="GRAPHIC DESIGNER"/>
+<Creditee name="Minna Hu"/>
+<CrediteeRole name="OFFICE MANAGER"/>
+<Creditee name="Trina Deakin"/>
+<CrediteeRole name="IT TECH"/>
+<Creditee name="Nik Marquez"/>
+<CrediteeRole name="FOUNDER"/>
+<Creditee name="Kai Huang"/>
+<CrediteeRole name="FOUNDER/ VP, BUSINESS DEVELOPMENT"/>
+<Creditee name="Charles Huang"/>
+<CrediteeRole name="THE REST AT REDOCTANE, SPECIFICALLY:"/>
+<Creditee name="John Devecka"/>
+<Creditee name="Swami Venkat"/>
+</CreditsGroup>
+</Company>
+<Company displayname="ADDITIONAL SUPPORT">
+<CreditsGroup displayname="DEMONWARE">
+<Creditee name="Nadia Alramli"/>
+<Creditee name="Miroslaw Baran"/>
+<Creditee name="David “Respawn” Brennan"/>
+<Creditee name="Morgan Brickley"/>
+<Creditee name="Luke Burden"/>
+<Creditee name="David Cahill"/>
+<Creditee name="Jordan Chin"/>
+<Creditee name="Martin Clarke"/>
+<Creditee name="Michael Collins"/>
+<Creditee name="Alex Couture-Bell"/>
+<Creditee name="Tim Czerniak"/>
+<Creditee name="Brendan Dillon"/>
+<Creditee name="Malcom Dowse"/>
+<Creditee name="Matthew Edwards"/>
+<Creditee name="David Falloon"/>
+<Creditee name="Brendan Fields"/>
+<Creditee name="Paul Froese"/>
+<Creditee name="Eoghan Gaffney"/>
+<Creditee name="Arthur Green"/>
+<Creditee name="Padraic Hallinan"/>
+<Creditee name="Greame Humphries"/>
+<Creditee name="Steffen Higel"/>
+<Creditee name="Tony Kelly"/>
+<Creditee name="John Kirk"/>
+<Creditee name="Lance Laursen"/>
+<Creditee name="Damien Marshall"/>
+<Creditee name="Catherine McCarthy"/>
+<Creditee name="Craig McInnes"/>
+<Creditee name="Ruaidhrí Power"/>
+<Creditee name="Tilman Schaefer"/>
+<Creditee name="Gordon Schneider"/>
+<Creditee name="Amy Smith"/>
+<Creditee name="Emmanuel Stone"/>
+<Creditee name="Stefan Tjarks"/>
+<Creditee name="Charlie Von Metzradt"/>
+<Creditee name="Jason “Hagao” Wei"/>
+</CreditsGroup>
+<CreditsGroup displayname="7 STUDIOS">
+<CrediteeRole name="ART DIRECTOR"/>
+<Creditee name="Buck Chantel"/>
+
+<CrediteeRole name="CONCEPT ART DIRECTOR"/>
+<Creditee name="Miguel Lleras"/>
+
+<CrediteeRole name="LEAD ARTIST"/>
+<Creditee name="Terry Smith"/>
+
+<CrediteeRole name="LEAD ENVIRONMENT ARTIST"/>
+<Creditee name="Doug Cope"/>
+
+<CrediteeRole name="SENIOR CHARACTER ARTIST"/>
+<Creditee name="Dean Kubina"/>
+
+<CrediteeRole name="SENIOR TECHNICAL ARTIST"/>
+<Creditee name="Alex Velez"/>
+
+<CrediteeRole name="TECHNICAL DIRECTOR"/>
+<Creditee name="Paul Haban"/>
+
+<CrediteeRole name="LEAD TOOLS PROGRAMMER"/>
+<Creditee name="Tim Yanalunas"/>
+
+<CrediteeRole name="TOOLS PROGRAMMER"/>
+<Creditee name="Dan Baker"/>
+
+<CrediteeRole name="TOOLS PROGRAMMER"/>
+<Creditee name="Leayle Galiber"/>
+
+<CrediteeRole name="TOOLS PROGRAMMER"/>
+<Creditee name="Raymond Sun"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Damon Conn"/>
+
+<CrediteeRole name="ASSOCIATE PRODUCER"/>
+<Creditee name="Alex Beckers"/>
+
+<CrediteeRole name="VICE PRESIDENT, PRODUCTION"/>
+<Creditee name="Michael Fletcher"/>
+
+<CrediteeRole name="STUDIO HEAD"/>
+<Creditee name="Lewis Petersen"/>
+</CreditsGroup>
+<CreditsGroup displayname="PLAYGROUND GAMES LTD">
+<CrediteeRole name="ADDITIONAL PROGRAMMING SUPPORT"/>
+<Creditee name="Karl Hammarling"/>
+<Creditee name="Scott Stephen"/>
+<Creditee name="Paul Penson"/>
+<Creditee name="Rob Pattenden"/>
+<CrediteeRole name="ADDITIONAL ART SUPPORT"/>
+<Creditee name="Phil Cox"/>
+</CreditsGroup>
+<CreditsGroup displayname="GUSTO GAMES LTD">
+
+<CrediteeRole name="MANAGING DIRECTOR"/>
+<Creditee name="Simon Phillips"/>
+
+<CrediteeRole name="DEVELOPMENT DIRECTOR"/>
+<Creditee name="Steve Archer"/>
+
+<CrediteeRole name="TECHNICAL DIRECTOR"/>
+<Creditee name="Andrew Hersee"/>
+
+<CrediteeRole name="DIRECTORS"/>
+<Creditee name="Giles Park"/>
+<Creditee name="Rod Mack"/>
+<Creditee name="Geoff Brown"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Matt Molloy"/>
+
+<CrediteeRole name="LEAD PROGRAMMER"/>
+<Creditee name="Andrew Hersee"/>
+
+<CrediteeRole name="GAME PROGRAMMING TEAM"/>
+<Creditee name="Surath  Chatterji"/>
+<Creditee name="Xav Wasmuth"/>
+
+<CrediteeRole name="TECHNICAL ADVISOR"/>
+<Creditee name="Richard Kettlewell"/>
+
+<CrediteeRole name="LEAD ARTIST"/>
+<Creditee name="James Roadley-Battin"/>
+
+<CrediteeRole name="ARTISTS"/>
+<Creditee name="Sam Bickley"/>
+<Creditee name="Stuart Hansell"/>
+<Creditee name="Ritchie Moore"/>
+<Creditee name="James Catterson"/>
+<Creditee name="Luke Maskell"/>
+<Creditee name="Richard Stevens"/>
+
+<CrediteeRole name="ADMINISTRATION"/>
+<Creditee name="Lisa Fantasia"/>
+
+<CrediteeRole name="IT SUPPORT"/>
+<Creditee name="Neil Bullock"/>
+</CreditsGroup>
+<CreditsGroup displayname="FIREPROOF STUDIOS">
+
+<CrediteeRole name="LEAD ARTIST"/>
+<Creditee name="Damien Rayfield"/>
+
+<CrediteeRole name="ARTISTS"/>
+<Creditee name="Dave Rack"/>
+<Creditee name="Lili Huang"/>
+<Creditee name="Tony Cartright"/>
+<Creditee name="Barry Meade"/>
+</CreditsGroup>
+<CreditsGroup displayname="NIKITOVA">
+
+<CrediteeRole name="PRESIDENT & CEO"/>
+<Creditee name="Olya Nikitova"/>
+
+<CrediteeRole name="VICE PRESIDENT OF PRODUCTION"/>
+<Creditee name="Mikhail Vatsovskiy"/>
+
+<CrediteeRole name="BUSINESS DEVELOPMENT MANAGER"/>
+<Creditee name="Natalia Makarova"/>
+
+<CrediteeRole name="ART  DIRECTOR"/>
+<Creditee name="Miroslav Baranenko"/>
+
+<CrediteeRole name="PROJECT MANAGER"/>
+<Creditee name="Vladimir Loban"/>
+
+<CrediteeRole name="LEAD ENVIRONMENT ARTIST"/>
+<Creditee name="Anatoliy Grizin"/>
+
+<CrediteeRole name="ENVIRONMENT ARTISTS"/>
+<Creditee name="Sergei Gorbunov"/>
+<Creditee name="Aleksandr Kaplun"/>
+<Creditee name="Yuri Savchuk"/>
+<Creditee name="Maxim Popov"/>
+<Creditee name="Liliya Tkach"/>
+<Creditee name="Aleksandr Markelov"/>
+
+<CrediteeRole name="LEAD CHARACTER ARTIST"/>
+<Creditee name="Andrei Klimenko"/>
+
+<CrediteeRole name="CHARACTER ARTISTS"/>
+<Creditee name="Aleksandr Mendeleyev"/>
+<Creditee name="Anton Evdokimov"/>
+<Creditee name="Aleksandr Kravchuk"/>
+<Creditee name="Olya Baranenko"/>
+<Creditee name="Evelina Samoylovich"/>
+
+<CrediteeRole name="ANIMATOR"/>
+<Creditee name="Anatoliy Kuzmich"/>
+
+<CrediteeRole name="QA ARTIST"/>
+<Creditee name="Sergei Poliakov"/>
+</CreditsGroup>
+<CreditsGroup displayname="ADDITIONAL ART">
+<CrediteeRole name="AWARD & MEDAL ICONS"/>
+<Creditee name="Peter Santha"/>
+</CreditsGroup>
+<CreditsGroup displayname="MUSIC RESEARCH">
+<CrediteeRole name="DA INDUSTRIES"/>
+<Creditee name="Coco Shah"/>
+</CreditsGroup>
+<CreditsGroup displayname="MOTION CAPTURE">
+<CrediteeRole name="PRODUCTION"/>
+<Creditee name="Motion capture supplied by Audiomotion Studios Ltd."/>
+
+<CrediteeRole name="MOTION CAPTURE TALENT"/>
+<Creditee name="Anneka Dacres"/>
+<Creditee name="Charlotte Habib"/>
+<Creditee name="Christopher Hatherhall"/>
+<Creditee name="Dawson James"/>
+<Creditee name="Matthew Stirling"/>
+<Creditee name="Megan Jones"/>
+</CreditsGroup>
+<CreditsGroup displayname="FSG/ACTIVISION INTRO ANIMATION">
+<CrediteeRole name="A FLAUNT PRODUCTION"/>
+<CrediteeRole name="DIRECTOR"/>
+<Creditee name="Mato Atom"/>
+
+<CrediteeRole name="PRODUCER"/>
+<Creditee name="Andrew Pearce"/>
+
+<CrediteeRole name="SOUND"/>
+<Creditee name="Supreme Music"/>
+</CreditsGroup>
+<CreditsGroup displayname="ENGLISH VOICEOVER RECORDED AT">
+<CrediteeRole name="SIDE LONDON"/>
+<CrediteeRole name="SIDE AUDIO ENGINEER"/>
+<Creditee name="Ant Hales"/>
+
+<CrediteeRole name="SIDE PRODUCTION MANAGER"/>
+<Creditee name="Martin Vaughan"/>
+</CreditsGroup>
+</Company>
+<Company displayname="ADDITIONAL QA SUPPORT">
+<CreditsGroup displayname="VMC GAME LABS">
+<CrediteeRole name="TEST MANAGER"/>
+<Creditee name="Keith Earley"/>
+
+<CrediteeRole name="TEST LEADS"/>
+<Creditee name="Adam Rush"/>
+<Creditee name="Vadim Mercurio"/>
+
+<CrediteeRole name="COMPLIANCE TESTERS"/>
+<Creditee name="Ahmad Rahman"/>
+<Creditee name="Brian King"/>
+<Creditee name="Craig Ritchie"/>
+<Creditee name="Dejan Zahirovic"/>
+<Creditee name="Dominic Charron"/>
+<Creditee name="Eli Shevloff"/>
+<Creditee name="Gabe Adamson"/>
+<Creditee name="Harry Maman"/>
+<Creditee name="James Howden"/>
+<Creditee name="James McBride"/>
+<Creditee name="Mark Pragelas"/>
+<Creditee name="Matthew Sekieta"/>
+<Creditee name="Mindy Martin"/>
+<Creditee name="Patrick Pichette"/>
+<Creditee name="Ryan Cloutier"/>
+<Creditee name="Steve Vuong"/>
+<Creditee name="Suraj Chitra"/>
+</CreditsGroup>
+<CreditsGroup displayname="TESTOLOGY LTD">
+<CrediteeRole name="MANAGING DIRECTOR"/>
+<Creditee name="Andy Robson"/>
+
+<CrediteeRole name="COMMUNICATIONS MANAGER"/>
+<Creditee name="Claire Hedley"/>
+
+<CrediteeRole name="QA MANAGER"/>
+<Creditee name="Justin Amore"/>
+
+<CrediteeRole name="QA LEAD TESTERS"/>
+<Creditee name="Harrison Baker"/>
+<Creditee name="Jeff Brutus"/>
+<Creditee name="John Lamplugh"/>
+<Creditee name="Matthew James Spencer"/>
+
+<CrediteeRole name="QA TESTERS"/>
+<Creditee name="Ian Squibb"/>
+<Creditee name="James Brooks"/>
+<Creditee name="James Brown"/>
+<Creditee name="Jamie Hunter "/>
+<Creditee name="John Tibber"/>
+<Creditee name="Josh Grimes"/>
+<Creditee name="Jordan Lawrence"/>
+<Creditee name="Lewis Parsons"/>
+<Creditee name="Liam Wyatt"/>
+<Creditee name="Michael Curtis"/>
+<Creditee name="Robert Walker"/>
+<Creditee name="Sam Read"/>
+<Creditee name="Thomas Carter"/>
+</CreditsGroup>
+</Company>
+<Company displayname="MIXES PRESENTED BY">
+<CreditsGroup displayname="A-TRAK">
+<Creditee name="Justice / D.A.N.C.E."/>
+<Creditee name="Naughty By Nature / O.P.P. - Jackson 5 / ABC"/>
+</CreditsGroup>
+<CreditsGroup displayname="DIPLO">
+<Creditee name="Kanye West / Heartless - DJ Shadow / Midnight In A Perfect World"/>
+<Creditee name="Major Lazer feat. VYBZ Kartel / Pon De Floor - Harold Faltermeyer / Axel F"/>
+</CreditsGroup>
+<CreditsGroup displayname="DJ JAZZY JEFF">
+<Creditee name="M/A/R/R/S / Pump Up The Volume - Busta Rhymes / Put Your Hands Where My Eyes Can See"/>
+</CreditsGroup>
+<CreditsGroup displayname="DJ SHADOW">
+<Creditee name="Kanye West / Love Lockdown - Metallica / The Day That Never Comes"/>
+<Creditee name="DJ Shadow feat. Q-Tip and Lateef the Truth Speaker / Enuff (DJ Fresh Remix) - Young Jeezy feat. Kanye West / Put On"/>
+</CreditsGroup>
+<CreditsGroup displayname="DJ QBERT">
+<Creditee name="Newcleus / Jam On It"/>
+<Creditee name="DJ Qbert / Super Battle Breaks"/>
+</CreditsGroup>
+<CreditsGroup displayname="RZA">
+<Creditee name="Damian Marley / Welcome To Jamrock - Walter Murphy / A Fifth of Beethoven"/>
+<Creditee name="LL Cool J / I Can't Live Without My Radio - Grandmaster Flash & The Furious Five feat. Melle Mel & Duke Bootee / The Message"/>
+</CreditsGroup>
+<CreditsGroup displayname="SCRATCH PERVERTS">
+<Creditee name="Orbital / The Box - The Prodigy / Omen"/>
+<Creditee name="The Chemical Brothers feat. Q-Tip / Galvanize"/>
+</CreditsGroup>
+<CreditsGroup displayname="TIËSTO">
+<Creditee name="Lady Gaga / Bad Romance"/>
+<Creditee name="Adamski / Killer"/>
+</CreditsGroup>
+<CreditsGroup displayname="Z-TRIP">
+<Creditee name="The Crystal Method / Busy Child (Still Busy After All These Years Remix) - Afrika Bambaataa and The Soul Sonic Force / Planet Rock"/>
+<Creditee name="Missy Elliott / Get Ur Freak On - Dillinja and Skibadee / Twist 'Em Out"/>
+</CreditsGroup>
+</Company>
+<Company displayname="MUSIC">
+<CreditsGroup displayname="STR_CREDITS_SONG1_1">
+<Creditee name="STR_CREDITS_SONG1_2"/>
+<Creditee name="STR_CREDITS_SONG1_3"/>
+<Creditee name="STR_CREDITS_SONG1_4"/>
+<Creditee name="STR_CREDITS_SONG1_5"/>
+<Creditee name="STR_CREDITS_SONG1_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG2_1">
+<Creditee name="STR_CREDITS_SONG2_2"/>
+<Creditee name="STR_CREDITS_SONG2_3"/>
+<Creditee name="STR_CREDITS_SONG2_4"/>
+<Creditee name="STR_CREDITS_SONG2_5"/>
+<Creditee name="STR_CREDITS_SONG2_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG3_1">
+<Creditee name="STR_CREDITS_SONG3_2"/>
+<Creditee name="STR_CREDITS_SONG3_3"/>
+<Creditee name="STR_CREDITS_SONG3_5"/>
+<Creditee name="STR_CREDITS_SONG3_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG4_1">
+<Creditee name="STR_CREDITS_SONG4_2"/>
+<Creditee name="STR_CREDITS_SONG4_3"/>
+<Creditee name="STR_CREDITS_SONG4_5"/>
+<Creditee name="STR_CREDITS_SONG4_6"/>
+<Creditee name="STR_CREDITS_SONG4_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG5_1">
+<Creditee name="STR_CREDITS_SONG5_2"/>
+<Creditee name="STR_CREDITS_SONG5_3"/>
+<Creditee name="STR_CREDITS_SONG5_4"/>
+<Creditee name="STR_CREDITS_SONG5_5"/>
+<Creditee name="STR_CREDITS_SONG5_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG6_1">
+<Creditee name="STR_CREDITS_SONG6_2"/>
+<Creditee name="STR_CREDITS_SONG6_3"/>
+<Creditee name="STR_CREDITS_SONG6_4"/>
+<Creditee name="STR_CREDITS_SONG6_5"/>
+<Creditee name="STR_CREDITS_SONG6_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG7_1">
+<Creditee name="STR_CREDITS_SONG7_2"/>
+<Creditee name="STR_CREDITS_SONG7_3"/>
+<Creditee name="STR_CREDITS_SONG7_4"/>
+<Creditee name="STR_CREDITS_SONG7_5"/>
+<Creditee name="STR_CREDITS_SONG7_6"/>
+<Creditee name="STR_CREDITS_SONG7_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG8_1">
+<Creditee name="STR_CREDITS_SONG8_2"/>
+<Creditee name="STR_CREDITS_SONG8_3"/>
+<Creditee name="STR_CREDITS_SONG8_4"/>
+<Creditee name="STR_CREDITS_SONG8_5"/>
+<Creditee name="STR_CREDITS_SONG8_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG9_1">
+<Creditee name="STR_CREDITS_SONG9_2"/>
+<Creditee name="STR_CREDITS_SONG9_3"/>
+<Creditee name="STR_CREDITS_SONG9_4"/>
+<Creditee name="STR_CREDITS_SONG9_5"/>
+<Creditee name="STR_CREDITS_SONG9_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG10_1">
+<Creditee name="STR_CREDITS_SONG10_2"/>
+<Creditee name="STR_CREDITS_SONG10_3"/>
+<Creditee name="STR_CREDITS_SONG10_4"/>
+<Creditee name="STR_CREDITS_SONG10_5"/>
+<Creditee name="STR_CREDITS_SONG10_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG11_1">
+<Creditee name="STR_CREDITS_SONG11_2"/>
+<Creditee name="STR_CREDITS_SONG11_3"/>
+<Creditee name="STR_CREDITS_SONG11_4"/>
+<Creditee name="STR_CREDITS_SONG11_5"/>
+<Creditee name="STR_CREDITS_SONG11_6"/>
+<Creditee name="STR_CREDITS_SONG11_7"/>
+<Creditee name="STR_CREDITS_SONG11_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG12_1">
+<Creditee name="STR_CREDITS_SONG12_2"/>
+<Creditee name="STR_CREDITS_SONG12_3"/>
+<Creditee name="STR_CREDITS_SONG12_4"/>
+<Creditee name="STR_CREDITS_SONG12_5"/>
+<Creditee name="STR_CREDITS_SONG12_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG13_1">
+<Creditee name="STR_CREDITS_SONG13_2"/>
+<Creditee name="STR_CREDITS_SONG13_3"/>
+<Creditee name="STR_CREDITS_SONG13_4"/>
+<Creditee name="STR_CREDITS_SONG13_5"/>
+<Creditee name="STR_CREDITS_SONG13_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG14_1">
+<Creditee name="STR_CREDITS_SONG14_2"/>
+<Creditee name="STR_CREDITS_SONG14_3"/>
+<Creditee name="STR_CREDITS_SONG14_4"/>
+<Creditee name="STR_CREDITS_SONG14_5"/>
+<Creditee name="STR_CREDITS_SONG14_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG15_1">
+<Creditee name="STR_CREDITS_SONG15_2"/>
+<Creditee name="STR_CREDITS_SONG15_3"/>
+<Creditee name="STR_CREDITS_SONG15_4"/>
+<Creditee name="STR_CREDITS_SONG15_5"/>
+<Creditee name="STR_CREDITS_SONG15_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG16_1">
+<Creditee name="STR_CREDITS_SONG16_2"/>
+<Creditee name="STR_CREDITS_SONG16_3"/>
+<Creditee name="STR_CREDITS_SONG16_4"/>
+<Creditee name="STR_CREDITS_SONG16_5"/>
+<Creditee name="STR_CREDITS_SONG16_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG17_1">
+<Creditee name="STR_CREDITS_SONG17_2"/>
+<Creditee name="STR_CREDITS_SONG17_3"/>
+<Creditee name="STR_CREDITS_SONG17_4"/>
+<Creditee name="STR_CREDITS_SONG17_5"/>
+<Creditee name="STR_CREDITS_SONG17_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG18_1">
+<Creditee name="STR_CREDITS_SONG18_2"/>
+<Creditee name="STR_CREDITS_SONG18_3"/>
+<Creditee name="STR_CREDITS_SONG18_4"/>
+<Creditee name="STR_CREDITS_SONG18_5"/>
+<Creditee name="STR_CREDITS_SONG18_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG19_1">
+<Creditee name="STR_CREDITS_SONG19_2"/>
+<Creditee name="STR_CREDITS_SONG19_3"/>
+<Creditee name="STR_CREDITS_SONG19_4"/>
+<Creditee name="STR_CREDITS_SONG19_5"/>
+<Creditee name="STR_CREDITS_SONG19_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG20_1">
+<Creditee name="STR_CREDITS_SONG20_2"/>
+<Creditee name="STR_CREDITS_SONG20_3"/>
+<Creditee name="STR_CREDITS_SONG20_4"/>
+<Creditee name="STR_CREDITS_SONG20_5"/>
+<Creditee name="STR_CREDITS_SONG20_6"/>
+<Creditee name="STR_CREDITS_SONG20_7"/>
+<Creditee name="STR_CREDITS_SONG20_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG21_1">
+<Creditee name="STR_CREDITS_SONG21_2"/>
+<Creditee name="STR_CREDITS_SONG21_3"/>
+<Creditee name="STR_CREDITS_SONG21_4"/>
+<Creditee name="STR_CREDITS_SONG21_5"/>
+<Creditee name="STR_CREDITS_SONG21_6"/>
+<Creditee name="STR_CREDITS_SONG21_7"/>
+<Creditee name="STR_CREDITS_SONG21_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG22_1">
+<Creditee name="STR_CREDITS_SONG22_2"/>
+<Creditee name="STR_CREDITS_SONG22_3"/>
+<Creditee name="STR_CREDITS_SONG22_4"/>
+<Creditee name="STR_CREDITS_SONG22_5"/>
+<Creditee name="STR_CREDITS_SONG22_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG23_1">
+<Creditee name="STR_CREDITS_SONG23_2"/>
+<Creditee name="STR_CREDITS_SONG23_3"/>
+<Creditee name="STR_CREDITS_SONG23_4"/>
+<Creditee name="STR_CREDITS_SONG23_5"/>
+<Creditee name="STR_CREDITS_SONG23_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG24_1">
+<Creditee name="STR_CREDITS_SONG24_2"/>
+<Creditee name="STR_CREDITS_SONG24_3"/>
+<Creditee name="STR_CREDITS_SONG24_4"/>
+<Creditee name="STR_CREDITS_SONG24_5"/>
+<Creditee name="STR_CREDITS_SONG24_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG25_1">
+<Creditee name="STR_CREDITS_SONG25_2"/>
+<Creditee name="STR_CREDITS_SONG25_3"/>
+<Creditee name="STR_CREDITS_SONG25_4"/>
+<Creditee name="STR_CREDITS_SONG25_5"/>
+<Creditee name="STR_CREDITS_SONG25_6"/>
+<Creditee name="STR_CREDITS_SONG25_7"/>
+<Creditee name="STR_CREDITS_SONG25_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG26_1">
+<Creditee name="STR_CREDITS_SONG26_2"/>
+<Creditee name="STR_CREDITS_SONG26_3"/>
+<Creditee name="STR_CREDITS_SONG26_4"/>
+<Creditee name="STR_CREDITS_SONG26_5"/>
+<Creditee name="STR_CREDITS_SONG26_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG27_1">
+<Creditee name="STR_CREDITS_SONG27_2"/>
+<Creditee name="STR_CREDITS_SONG27_3"/>
+<Creditee name="STR_CREDITS_SONG27_4"/>
+<Creditee name="STR_CREDITS_SONG27_5"/>
+<Creditee name="STR_CREDITS_SONG27_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG28_1">
+<Creditee name="STR_CREDITS_SONG28_2"/>
+<Creditee name="STR_CREDITS_SONG28_3"/>
+<Creditee name="STR_CREDITS_SONG28_4"/>
+<Creditee name="STR_CREDITS_SONG28_5"/>
+<Creditee name="STR_CREDITS_SONG28_6"/>
+<Creditee name="STR_CREDITS_SONG28_7"/>
+<Creditee name="STR_CREDITS_SONG28_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG29_1">
+<Creditee name="STR_CREDITS_SONG29_2"/>
+<Creditee name="STR_CREDITS_SONG29_3"/>
+<Creditee name="STR_CREDITS_SONG29_4"/>
+<Creditee name="STR_CREDITS_SONG29_5"/>
+<Creditee name="STR_CREDITS_SONG29_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG30_1">
+<Creditee name="STR_CREDITS_SONG30_2"/>
+<Creditee name="STR_CREDITS_SONG30_3"/>
+<Creditee name="STR_CREDITS_SONG30_4"/>
+<Creditee name="STR_CREDITS_SONG30_5"/>
+<Creditee name="STR_CREDITS_SONG30_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG31_1">
+<Creditee name="STR_CREDITS_SONG31_2"/>
+<Creditee name="STR_CREDITS_SONG31_3"/>
+<Creditee name="STR_CREDITS_SONG31_4"/>
+<Creditee name="STR_CREDITS_SONG31_5"/>
+<Creditee name="STR_CREDITS_SONG31_6"/>
+<Creditee name="STR_CREDITS_SONG31_7"/>
+<Creditee name="STR_CREDITS_SONG31_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG32_1">
+<Creditee name="STR_CREDITS_SONG32_2"/>
+<Creditee name="STR_CREDITS_SONG32_3"/>
+<Creditee name="STR_CREDITS_SONG32_4"/>
+<Creditee name="STR_CREDITS_SONG32_5"/>
+<Creditee name="STR_CREDITS_SONG32_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG33_1">
+<Creditee name="STR_CREDITS_SONG33_2"/>
+<Creditee name="STR_CREDITS_SONG33_3"/>
+<Creditee name="STR_CREDITS_SONG33_5"/>
+<Creditee name="STR_CREDITS_SONG33_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG34_1">
+<Creditee name="STR_CREDITS_SONG34_2"/>
+<Creditee name="STR_CREDITS_SONG34_3"/>
+<Creditee name="STR_CREDITS_SONG34_4"/>
+<Creditee name="STR_CREDITS_SONG34_5"/>
+<Creditee name="STR_CREDITS_SONG34_6"/>
+<Creditee name="STR_CREDITS_SONG34_7"/>
+<Creditee name="STR_CREDITS_SONG34_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG35_1">
+<Creditee name="STR_CREDITS_SONG35_3"/>
+<Creditee name="STR_CREDITS_SONG35_4"/>
+<Creditee name="STR_CREDITS_SONG35_5"/>
+<Creditee name="STR_CREDITS_SONG35_6"/>
+<Creditee name="STR_CREDITS_SONG35_7"/>
+<Creditee name="STR_CREDITS_SONG35_8"/>
+<Creditee name="STR_CREDITS_SONG35_9"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG36_1">
+<Creditee name="STR_CREDITS_SONG36_2"/>
+<Creditee name="STR_CREDITS_SONG36_3"/>
+<Creditee name="STR_CREDITS_SONG36_4"/>
+<Creditee name="STR_CREDITS_SONG36_5"/>
+<Creditee name="STR_CREDITS_SONG36_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG37_1">
+<Creditee name="STR_CREDITS_SONG37_2"/>
+<Creditee name="STR_CREDITS_SONG37_3"/>
+<Creditee name="STR_CREDITS_SONG37_4"/>
+<Creditee name="STR_CREDITS_SONG37_5"/>
+<Creditee name="STR_CREDITS_SONG37_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG38_1">
+<Creditee name="STR_CREDITS_SONG38_2"/>
+<Creditee name="STR_CREDITS_SONG38_3"/>
+<Creditee name="STR_CREDITS_SONG38_4"/>
+<Creditee name="STR_CREDITS_SONG38_5"/>
+<Creditee name="STR_CREDITS_SONG38_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG39_1">
+<Creditee name="STR_CREDITS_SONG39_2"/>
+<Creditee name="STR_CREDITS_SONG39_3"/>
+<Creditee name="STR_CREDITS_SONG39_5"/>
+<Creditee name="STR_CREDITS_SONG39_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG40_1">
+<Creditee name="STR_CREDITS_SONG40_2"/>
+<Creditee name="STR_CREDITS_SONG40_3"/>
+<Creditee name="STR_CREDITS_SONG40_4"/>
+<Creditee name="STR_CREDITS_SONG40_5"/>
+<Creditee name="STR_CREDITS_SONG40_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG41_1">
+<Creditee name="STR_CREDITS_SONG41_2"/>
+<Creditee name="STR_CREDITS_SONG41_3"/>
+<Creditee name="STR_CREDITS_SONG41_4"/>
+<Creditee name="STR_CREDITS_SONG41_5"/>
+<Creditee name="STR_CREDITS_SONG41_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG42_1">
+<Creditee name="STR_CREDITS_SONG42_2"/>
+<Creditee name="STR_CREDITS_SONG42_3"/>
+<Creditee name="STR_CREDITS_SONG42_5"/>
+<Creditee name="STR_CREDITS_SONG42_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG43_1">
+<Creditee name="STR_CREDITS_SONG43_2"/>
+<Creditee name="STR_CREDITS_SONG43_3"/>
+<Creditee name="STR_CREDITS_SONG43_4"/>
+<Creditee name="STR_CREDITS_SONG43_5"/>
+<Creditee name="STR_CREDITS_SONG43_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG44_1">
+<Creditee name="STR_CREDITS_SONG44_2"/>
+<Creditee name="STR_CREDITS_SONG44_3"/>
+<Creditee name="STR_CREDITS_SONG44_4"/>
+<Creditee name="STR_CREDITS_SONG44_5"/>
+<Creditee name="STR_CREDITS_SONG44_6"/>
+<Creditee name="STR_CREDITS_SONG44_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG45_1">
+<Creditee name="STR_CREDITS_SONG45_2"/>
+<Creditee name="STR_CREDITS_SONG45_3"/>
+<Creditee name="STR_CREDITS_SONG45_4"/>
+<Creditee name="STR_CREDITS_SONG45_5"/>
+<Creditee name="STR_CREDITS_SONG45_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG46_1">
+<Creditee name="STR_CREDITS_SONG46_2"/>
+<Creditee name="STR_CREDITS_SONG46_3"/>
+<Creditee name="STR_CREDITS_SONG46_4"/>
+<Creditee name="STR_CREDITS_SONG46_5"/>
+<Creditee name="STR_CREDITS_SONG46_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG47_1">
+<Creditee name="STR_CREDITS_SONG47_2"/>
+<Creditee name="STR_CREDITS_SONG47_3"/>
+<Creditee name="STR_CREDITS_SONG47_5"/>
+<Creditee name="STR_CREDITS_SONG47_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG48_1">
+<Creditee name="STR_CREDITS_SONG48_2"/>
+<Creditee name="STR_CREDITS_SONG48_3"/>
+<Creditee name="STR_CREDITS_SONG48_5"/>
+<Creditee name="STR_CREDITS_SONG48_6"/>
+<Creditee name="STR_CREDITS_SONG48_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG49_1">
+<Creditee name="STR_CREDITS_SONG49_2"/>
+<Creditee name="STR_CREDITS_SONG49_3"/>
+<Creditee name="STR_CREDITS_SONG49_4"/>
+<Creditee name="STR_CREDITS_SONG49_5"/>
+<Creditee name="STR_CREDITS_SONG49_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG50_1">
+<Creditee name="STR_CREDITS_SONG50_2"/>
+<Creditee name="STR_CREDITS_SONG50_3"/>
+<Creditee name="STR_CREDITS_SONG50_4"/>
+<Creditee name="STR_CREDITS_SONG50_5"/>
+<Creditee name="STR_CREDITS_SONG50_6"/>
+<Creditee name="STR_CREDITS_SONG50_7"/>
+<Creditee name="STR_CREDITS_SONG50_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG51_1">
+<Creditee name="STR_CREDITS_SONG51_2"/>
+<Creditee name="STR_CREDITS_SONG51_3"/>
+<Creditee name="STR_CREDITS_SONG51_4"/>
+<Creditee name="STR_CREDITS_SONG51_5"/>
+<Creditee name="STR_CREDITS_SONG51_6"/>
+<Creditee name="STR_CREDITS_SONG51_7"/>
+<Creditee name="STR_CREDITS_SONG51_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG52_1">
+<Creditee name="STR_CREDITS_SONG52_2"/>
+<Creditee name="STR_CREDITS_SONG52_3"/>
+<Creditee name="STR_CREDITS_SONG52_4"/>
+<Creditee name="STR_CREDITS_SONG52_5"/>
+<Creditee name="STR_CREDITS_SONG52_6"/>
+<Creditee name="STR_CREDITS_SONG52_7"/>
+<Creditee name="STR_CREDITS_SONG52_8"/>
+<Creditee name="STR_CREDITS_SONG52_9"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG53_1">
+<Creditee name="STR_CREDITS_SONG53_2"/>
+<Creditee name="STR_CREDITS_SONG53_3"/>
+<Creditee name="STR_CREDITS_SONG53_4"/>
+<Creditee name="STR_CREDITS_SONG53_5"/>
+<Creditee name="STR_CREDITS_SONG53_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG54_1">
+<Creditee name="STR_CREDITS_SONG54_2"/>
+<Creditee name="STR_CREDITS_SONG54_3"/>
+<Creditee name="STR_CREDITS_SONG54_4"/>
+<Creditee name="STR_CREDITS_SONG54_5"/>
+<Creditee name="STR_CREDITS_SONG54_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG55_1">
+<Creditee name="STR_CREDITS_SONG55_2"/>
+<Creditee name="STR_CREDITS_SONG55_3"/>
+<Creditee name="STR_CREDITS_SONG55_4"/>
+<Creditee name="STR_CREDITS_SONG55_5"/>
+<Creditee name="STR_CREDITS_SONG55_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG56_1">
+<Creditee name="STR_CREDITS_SONG56_2"/>
+<Creditee name="STR_CREDITS_SONG56_3"/>
+<Creditee name="STR_CREDITS_SONG56_4"/>
+<Creditee name="STR_CREDITS_SONG56_5"/>
+<Creditee name="STR_CREDITS_SONG56_6"/>
+<Creditee name="STR_CREDITS_SONG56_7"/>
+<Creditee name="STR_CREDITS_SONG56_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG57_1">
+<Creditee name="STR_CREDITS_SONG57_2"/>
+<Creditee name="STR_CREDITS_SONG57_3"/>
+<Creditee name="STR_CREDITS_SONG57_4"/>
+<Creditee name="STR_CREDITS_SONG57_5"/>
+<Creditee name="STR_CREDITS_SONG57_6"/>
+<Creditee name="STR_CREDITS_SONG57_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG58_1">
+<Creditee name="STR_CREDITS_SONG58_2"/>
+<Creditee name="STR_CREDITS_SONG58_3"/>
+<Creditee name="STR_CREDITS_SONG58_5"/>
+<Creditee name="STR_CREDITS_SONG58_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG59_1">
+<Creditee name="STR_CREDITS_SONG59_2"/>
+<Creditee name="STR_CREDITS_SONG59_3"/>
+<Creditee name="STR_CREDITS_SONG59_4"/>
+<Creditee name="STR_CREDITS_SONG59_5"/>
+<Creditee name="STR_CREDITS_SONG59_6"/>
+<Creditee name="STR_CREDITS_SONG59_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG60_1">
+<Creditee name="STR_CREDITS_SONG60_2"/>
+<Creditee name="STR_CREDITS_SONG60_3"/>
+<Creditee name="STR_CREDITS_SONG60_4"/>
+<Creditee name="STR_CREDITS_SONG60_5"/>
+<Creditee name="STR_CREDITS_SONG60_6"/>
+<Creditee name="STR_CREDITS_SONG60_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG61_1">
+<Creditee name="STR_CREDITS_SONG61_2"/>
+<Creditee name="STR_CREDITS_SONG61_3"/>
+<Creditee name="STR_CREDITS_SONG61_4"/>
+<Creditee name="STR_CREDITS_SONG61_5"/>
+<Creditee name="STR_CREDITS_SONG61_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG62_1">
+<Creditee name="STR_CREDITS_SONG62_2"/>
+<Creditee name="STR_CREDITS_SONG62_3"/>
+<Creditee name="STR_CREDITS_SONG62_4"/>
+<Creditee name="STR_CREDITS_SONG62_5"/>
+<Creditee name="STR_CREDITS_SONG62_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG63_1">
+<Creditee name="STR_CREDITS_SONG63_2"/>
+<Creditee name="STR_CREDITS_SONG63_3"/>
+<Creditee name="STR_CREDITS_SONG63_4"/>
+<Creditee name="STR_CREDITS_SONG63_5"/>
+<Creditee name="STR_CREDITS_SONG63_6"/>
+<Creditee name="STR_CREDITS_SONG63_7"/>
+<Creditee name="STR_CREDITS_SONG63_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG64_1">
+<Creditee name="STR_CREDITS_SONG64_2"/>
+<Creditee name="STR_CREDITS_SONG64_3"/>
+<Creditee name="STR_CREDITS_SONG64_4"/>
+<Creditee name="STR_CREDITS_SONG64_5"/>
+<Creditee name="STR_CREDITS_SONG64_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG65_1">
+<Creditee name="STR_CREDITS_SONG65_2"/>
+<Creditee name="STR_CREDITS_SONG65_3"/>
+<Creditee name="STR_CREDITS_SONG65_4"/>
+<Creditee name="STR_CREDITS_SONG65_5"/>
+<Creditee name="STR_CREDITS_SONG65_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG66_1">
+<Creditee name="STR_CREDITS_SONG66_2"/>
+<Creditee name="STR_CREDITS_SONG66_3"/>
+<Creditee name="STR_CREDITS_SONG66_4"/>
+<Creditee name="STR_CREDITS_SONG66_5"/>
+<Creditee name="STR_CREDITS_SONG66_6"/>
+<Creditee name="STR_CREDITS_SONG66_7"/>
+<Creditee name="STR_CREDITS_SONG66_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG67_1">
+<Creditee name="STR_CREDITS_SONG67_2"/>
+<Creditee name="STR_CREDITS_SONG67_3"/>
+<Creditee name="STR_CREDITS_SONG67_4"/>
+<Creditee name="STR_CREDITS_SONG67_5"/>
+<Creditee name="STR_CREDITS_SONG67_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG68_1">
+<Creditee name="STR_CREDITS_SONG68_2"/>
+<Creditee name="STR_CREDITS_SONG68_3"/>
+<Creditee name="STR_CREDITS_SONG68_4"/>
+<Creditee name="STR_CREDITS_SONG68_5"/>
+<Creditee name="STR_CREDITS_SONG68_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG69_1">
+<Creditee name="STR_CREDITS_SONG69_2"/>
+<Creditee name="STR_CREDITS_SONG69_3"/>
+<Creditee name="STR_CREDITS_SONG69_4"/>
+<Creditee name="STR_CREDITS_SONG69_5"/>
+<Creditee name="STR_CREDITS_SONG69_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG70_1">
+<Creditee name="STR_CREDITS_SONG70_2"/>
+<Creditee name="STR_CREDITS_SONG70_3"/>
+<Creditee name="STR_CREDITS_SONG70_5"/>
+<Creditee name="STR_CREDITS_SONG70_6"/>
+<Creditee name="STR_CREDITS_SONG70_7"/>
+<Creditee name="STR_CREDITS_SONG70_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG71_1">
+<Creditee name="STR_CREDITS_SONG71_2"/>
+<Creditee name="STR_CREDITS_SONG71_3"/>
+<Creditee name="STR_CREDITS_SONG71_4"/>
+<Creditee name="STR_CREDITS_SONG71_5"/>
+<Creditee name="STR_CREDITS_SONG71_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG72_1">
+<Creditee name="STR_CREDITS_SONG72_2"/>
+<Creditee name="STR_CREDITS_SONG72_3"/>
+<Creditee name="STR_CREDITS_SONG72_4"/>
+<Creditee name="STR_CREDITS_SONG72_5"/>
+<Creditee name="STR_CREDITS_SONG72_6"/>
+<Creditee name="STR_CREDITS_SONG72_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG73_1">
+<Creditee name="STR_CREDITS_SONG73_2"/>
+<Creditee name="STR_CREDITS_SONG73_3"/>
+<Creditee name="STR_CREDITS_SONG73_4"/>
+<Creditee name="STR_CREDITS_SONG73_5"/>
+<Creditee name="STR_CREDITS_SONG73_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG74_1">
+<Creditee name="STR_CREDITS_SONG74_2"/>
+<Creditee name="STR_CREDITS_SONG74_3"/>
+<Creditee name="STR_CREDITS_SONG74_4"/>
+<Creditee name="STR_CREDITS_SONG74_5"/>
+<Creditee name="STR_CREDITS_SONG74_6"/>
+<Creditee name="STR_CREDITS_SONG74_7"/>
+<Creditee name="STR_CREDITS_SONG74_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG75_1">
+<Creditee name="STR_CREDITS_SONG75_2"/>
+<Creditee name="STR_CREDITS_SONG75_3"/>
+<Creditee name="STR_CREDITS_SONG75_4"/>
+<Creditee name="STR_CREDITS_SONG75_5"/>
+<Creditee name="STR_CREDITS_SONG75_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG76_1">
+<Creditee name="STR_CREDITS_SONG76_2"/>
+<Creditee name="STR_CREDITS_SONG76_3"/>
+<Creditee name="STR_CREDITS_SONG76_5"/>
+<Creditee name="STR_CREDITS_SONG76_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG77_1">
+<Creditee name="STR_CREDITS_SONG77_2"/>
+<Creditee name="STR_CREDITS_SONG77_3"/>
+<Creditee name="STR_CREDITS_SONG77_4"/>
+<Creditee name="STR_CREDITS_SONG77_5"/>
+<Creditee name="STR_CREDITS_SONG77_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG78_1">
+<Creditee name="STR_CREDITS_SONG78_2"/>
+<Creditee name="STR_CREDITS_SONG78_3"/>
+<Creditee name="STR_CREDITS_SONG78_4"/>
+<Creditee name="STR_CREDITS_SONG78_5"/>
+<Creditee name="STR_CREDITS_SONG78_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG79_1">
+<Creditee name="STR_CREDITS_SONG79_2"/>
+<Creditee name="STR_CREDITS_SONG79_3"/>
+<Creditee name="STR_CREDITS_SONG79_4"/>
+<Creditee name="STR_CREDITS_SONG79_5"/>
+<Creditee name="STR_CREDITS_SONG79_6"/>
+<Creditee name="STR_CREDITS_SONG79_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG80_1">
+<Creditee name="STR_CREDITS_SONG80_2"/>
+<Creditee name="STR_CREDITS_SONG80_3"/>
+<Creditee name="STR_CREDITS_SONG80_4"/>
+<Creditee name="STR_CREDITS_SONG80_5"/>
+<Creditee name="STR_CREDITS_SONG80_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG81_1">
+<Creditee name="STR_CREDITS_SONG81_2"/>
+<Creditee name="STR_CREDITS_SONG81_3"/>
+<Creditee name="STR_CREDITS_SONG81_4"/>
+<Creditee name="STR_CREDITS_SONG81_5"/>
+<Creditee name="STR_CREDITS_SONG81_6"/>
+<Creditee name="STR_CREDITS_SONG81_7"/>
+<Creditee name="STR_CREDITS_SONG81_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG82_1">
+<Creditee name="STR_CREDITS_SONG82_2"/>
+<Creditee name="STR_CREDITS_SONG82_3"/>
+<Creditee name="STR_CREDITS_SONG82_4"/>
+<Creditee name="STR_CREDITS_SONG82_5"/>
+<Creditee name="STR_CREDITS_SONG82_6"/>
+<Creditee name="STR_CREDITS_SONG82_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG83_1">
+<Creditee name="STR_CREDITS_SONG83_2"/>
+<Creditee name="STR_CREDITS_SONG83_3"/>
+<Creditee name="STR_CREDITS_SONG83_5"/>
+<Creditee name="STR_CREDITS_SONG83_6"/>
+<Creditee name="STR_CREDITS_SONG83_7"/>
+<Creditee name="STR_CREDITS_SONG83_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG84_1">
+<Creditee name="STR_CREDITS_SONG84_2"/>
+<Creditee name="STR_CREDITS_SONG84_3"/>
+<Creditee name="STR_CREDITS_SONG84_4"/>
+<Creditee name="STR_CREDITS_SONG84_5"/>
+<Creditee name="STR_CREDITS_SONG84_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG85_1">
+<Creditee name="STR_CREDITS_SONG85_2"/>
+<Creditee name="STR_CREDITS_SONG85_3"/>
+<Creditee name="STR_CREDITS_SONG85_4"/>
+<Creditee name="STR_CREDITS_SONG85_5"/>
+<Creditee name="STR_CREDITS_SONG85_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG86_1">
+<Creditee name="STR_CREDITS_SONG86_2"/>
+<Creditee name="STR_CREDITS_SONG86_3"/>
+<Creditee name="STR_CREDITS_SONG86_5"/>
+<Creditee name="STR_CREDITS_SONG86_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG87_1">
+<Creditee name="STR_CREDITS_SONG87_2"/>
+<Creditee name="STR_CREDITS_SONG87_3"/>
+<Creditee name="STR_CREDITS_SONG87_4"/>
+<Creditee name="STR_CREDITS_SONG87_5"/>
+<Creditee name="STR_CREDITS_SONG87_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG88_1">
+<Creditee name="STR_CREDITS_SONG88_2"/>
+<Creditee name="STR_CREDITS_SONG88_3"/>
+<Creditee name="STR_CREDITS_SONG88_4"/>
+<Creditee name="STR_CREDITS_SONG88_5"/>
+<Creditee name="STR_CREDITS_SONG88_6"/>
+<Creditee name="STR_CREDITS_SONG88_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG89_1">
+<Creditee name="STR_CREDITS_SONG89_2"/>
+<Creditee name="STR_CREDITS_SONG89_3"/>
+<Creditee name="STR_CREDITS_SONG89_4"/>
+<Creditee name="STR_CREDITS_SONG89_5"/>
+<Creditee name="STR_CREDITS_SONG89_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG90_1">
+<Creditee name="STR_CREDITS_SONG90_2"/>
+<Creditee name="STR_CREDITS_SONG90_3"/>
+<Creditee name="STR_CREDITS_SONG90_4"/>
+<Creditee name="STR_CREDITS_SONG90_5"/>
+<Creditee name="STR_CREDITS_SONG90_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG91_1">
+<Creditee name="STR_CREDITS_SONG91_2"/>
+<Creditee name="STR_CREDITS_SONG91_3"/>
+<Creditee name="STR_CREDITS_SONG91_4"/>
+<Creditee name="STR_CREDITS_SONG91_5"/>
+<Creditee name="STR_CREDITS_SONG91_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG92_1">
+<Creditee name="STR_CREDITS_SONG92_2"/>
+<Creditee name="STR_CREDITS_SONG92_3"/>
+<Creditee name="STR_CREDITS_SONG92_4"/>
+<Creditee name="STR_CREDITS_SONG92_5"/>
+<Creditee name="STR_CREDITS_SONG92_6"/>
+<Creditee name="STR_CREDITS_SONG92_7"/>
+<Creditee name="STR_CREDITS_SONG92_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG93_1">
+<Creditee name="STR_CREDITS_SONG93_2"/>
+<Creditee name="STR_CREDITS_SONG93_3"/>
+<Creditee name="STR_CREDITS_SONG93_4"/>
+<Creditee name="STR_CREDITS_SONG93_5"/>
+<Creditee name="STR_CREDITS_SONG93_6"/>
+<Creditee name="STR_CREDITS_SONG93_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG94_1">
+<Creditee name="STR_CREDITS_SONG94_2"/>
+<Creditee name="STR_CREDITS_SONG94_3"/>
+<Creditee name="STR_CREDITS_SONG94_4"/>
+<Creditee name="STR_CREDITS_SONG94_5"/>
+<Creditee name="STR_CREDITS_SONG94_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG95_1">
+<Creditee name="STR_CREDITS_SONG95_2"/>
+<Creditee name="STR_CREDITS_SONG95_3"/>
+<Creditee name="STR_CREDITS_SONG95_5"/>
+<Creditee name="STR_CREDITS_SONG95_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG96_1">
+<Creditee name="STR_CREDITS_SONG96_2"/>
+<Creditee name="STR_CREDITS_SONG96_3"/>
+<Creditee name="STR_CREDITS_SONG96_4"/>
+<Creditee name="STR_CREDITS_SONG96_5"/>
+<Creditee name="STR_CREDITS_SONG96_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG97_1">
+<Creditee name="STR_CREDITS_SONG97_2"/>
+<Creditee name="STR_CREDITS_SONG97_3"/>
+<Creditee name="STR_CREDITS_SONG97_4"/>
+<Creditee name="STR_CREDITS_SONG97_5"/>
+<Creditee name="STR_CREDITS_SONG97_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG98_1">
+<Creditee name="STR_CREDITS_SONG98_2"/>
+<Creditee name="STR_CREDITS_SONG98_3"/>
+<Creditee name="STR_CREDITS_SONG98_4"/>
+<Creditee name="STR_CREDITS_SONG98_5"/>
+<Creditee name="STR_CREDITS_SONG98_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG99_1">
+<Creditee name="STR_CREDITS_SONG99_2"/>
+<Creditee name="STR_CREDITS_SONG99_3"/>
+<Creditee name="STR_CREDITS_SONG99_4"/>
+<Creditee name="STR_CREDITS_SONG99_5"/>
+<Creditee name="STR_CREDITS_SONG99_6"/>
+<Creditee name="STR_CREDITS_SONG99_7"/>
+<Creditee name="STR_CREDITS_SONG99_8"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG100_1">
+<Creditee name="STR_CREDITS_SONG100_2"/>
+<Creditee name="STR_CREDITS_SONG100_3"/>
+<Creditee name="STR_CREDITS_SONG100_4"/>
+<Creditee name="STR_CREDITS_SONG100_5"/>
+<Creditee name="STR_CREDITS_SONG100_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG101_1">
+<Creditee name="STR_CREDITS_SONG101_2"/>
+<Creditee name="STR_CREDITS_SONG101_3"/>
+<Creditee name="STR_CREDITS_SONG101_4"/>
+<Creditee name="STR_CREDITS_SONG101_5"/>
+<Creditee name="STR_CREDITS_SONG101_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG102_1">
+<Creditee name="STR_CREDITS_SONG102_2"/>
+<Creditee name="STR_CREDITS_SONG102_3"/>
+<Creditee name="STR_CREDITS_SONG102_4"/>
+<Creditee name="STR_CREDITS_SONG102_5"/>
+<Creditee name="STR_CREDITS_SONG102_6"/>
+<Creditee name="STR_CREDITS_SONG102_7"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG103_1">
+<Creditee name="STR_CREDITS_SONG103_2"/>
+<Creditee name="STR_CREDITS_SONG103_3"/>
+<Creditee name="STR_CREDITS_SONG103_4"/>
+<Creditee name="STR_CREDITS_SONG103_5"/>
+<Creditee name="STR_CREDITS_SONG103_6"/>
+</CreditsGroup>
+<CreditsGroup displayname="STR_CREDITS_SONG104_1">
+<Creditee name="STR_CREDITS_SONG104_2"/>
+<Creditee name="STR_CREDITS_SONG104_3"/>
+<Creditee name="STR_CREDITS_SONG104_5"/>
+<Creditee name="STR_CREDITS_SONG104_6"/>
+<Creditee name="STR_CREDITS_SONG104_7"/>
+<Creditee name="STR_CREDITS_SONG104_8"/>
+</CreditsGroup>
+
+<Creditee name="Uses Granny Animation. Copyright © 1999-2009 by RAD Game Tools, Inc."/>
+
+<Creditee name="Uses Bink Video. Copyright (C) 1997-2008 by RAD Game Tools, Inc."/>
+
+<Creditee name="Licensee Developed Game Title uses Havok® ©Copyright 1998-2009 Havok.com Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details."/>
+
+<Creditee name="FMOD Ex Sound System and Firelight Technologies"/>
+
+<Creditee name="Crowd Sound Effects by CSS Studios LLC d/b/a/ Soundelux Design Music Group"/>
+
+<Creditee name="Ableton Live screenshots, Ableton logo and Live logo © 1999-2010 Ableton AG.  Used with permission."/>
+
+<Creditee name="Rane is a registered trademark of Rane Corporation"/>
+
+<Creditee name="SCRATCH DJ ACADEMY and the Scratch DJ Academy “man with turntables represented by arrows” logo, whether registered or unregistered, are trademarks of Scratch Media Properties, LLC in the U.S. and other countries, used under license.  Portions of this program contain elements of works owned by Scratch DJ Academy, LLC, registered and otherwise protected under the copyright laws of the U.S. and other countries, used under license.  Copyright 2001-2010 Scratch Media Properties, LLC and Scratch DJ Academy, LLC.  All rights reserved."/>
+
+<Creditee name="Wacom, the logo, nextbeat are trademarks or registered trademarks of the Wacom Company, Ltd."/>
+
+<Creditee name="Novation is a registered trade mark and Launchpad a trade mark of Focusrite Audio Engineering Limited"/>
+
+<Creditee name="Cerwin-Vega! is a registered trademark of Cerwin-Vega, Inc."/>
+
+<Creditee name="KRK is a registered trademark of KRK Systems, LLC."/>
+
+<Creditee name="Stanton is a registered trademark of Stanton Magnetics, Inc."/>
+
+<Creditee name="©2010 The Coca-Cola Company “Coca-Cola” and the Contour Bottle Design are registered trademarks of The Coca-Cola Company."/>
+
+<Creditee name="PUMA is a registered trademark of PUMA AG Rudolf Dassler Sport."/>
+
+<Creditee name="©2010 Monster, LLC. Distributed under license from Monster."/>
+
+<Creditee name="Pioneer is a registered trademark of Pioneer Corporation."/>
+
+<Creditee name="Loopmasters samples and logo are copyright 2008-2010 Loopmasters Ltd. Used with permission."/>
+
+<Creditee name="Push Button Bang samples are copyright 2008-2010 Loopmasters Ltd. Used with permission."/>
+</Company>
+<Company displayname="DJ Hero® 2">
+<Creditee name="© 2010 Activision Publishing, Inc. Activision and DJ Hero are registered trademarks of Activision Publishing, Inc. The ratings icon is a registered trademark of the Entertainment Software Association. All other trademarks and trade names are the properties of their respective owners."/>
+</Company>
+<!-- REDEUX revival credits -->
+<Company displayname="DJ Hero 3 Redux (Community Revival)">
+<Creditee name="Built from the November 2010 milestone prototype. See you on the decks."/>
+<Creditee name="Chart data: Matt Flint and the FreeStyleGames music team."/>
+<Creditee name="Redux research, mods and tooling: the community."/>
+</Company>
+</Credits>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ﻿
