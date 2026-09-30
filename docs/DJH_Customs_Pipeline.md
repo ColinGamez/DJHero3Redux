@@ -104,7 +104,15 @@ what Quickplay says. Proven pattern for vocals: setlist
 `Name=STR_SetListVocals` + only `HasVocalMarkup=1` tracks
 (`DJH3/0080` "Vocals Setlist", 68 tracks, already staged).
 
-## 7. Open unknowns (do not block v1 customs)
+## 7. First forge (proven method)
+
+`forge1.py` pattern: parse header → `count` @+8 → events @ filesize -
+`count`*16 → patch event bytes in place → structure byte-identical
+(DJH2228 Beginner: 10x B-event b15 0→100, 928 events, size unchanged).
+Lane-flip customs need no repacking — hardware test will confirm
+semantics audibly (which stream the flipped notes play on).
+
+## 8. Open unknowns (do not block v1 customs)
 
 - Exact FAR tail field map (off/size/flags positions vary slightly).
 - Male.FAR entry0 (`animations.txt`, 237B?) data location.
