@@ -82,3 +82,5 @@ levers (QA only).
 - The registry carries the devs' own todo list: 25 `WorkInProgress`
   tracks (newest DJH2264/2265, TST2237/3015/3017/3027/3048/3049, all 17
   TUT2000-2016). TST3040/3041 are finished. Tutorials never got voice.
+- Tutorial content is audio-complete (all 17 TUT audio dirs exist) but
+  missing visual packs for TUT2000/2001 — lessons 1-2 would run blind.
