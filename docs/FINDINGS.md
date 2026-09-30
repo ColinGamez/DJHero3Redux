@@ -45,7 +45,11 @@ Source: November milestone dev build (`Default.xex` 2010-11-20, Title ID
 - XDVDFS (360 image FS): 16-bit unit-scaled BST offsets. See `tools/`.
 - FSG-FILE-SYSTEM container: BE, 16B records, string table @0x40000.
 - FAR v2: 32B header, 0x120B entries (path + numeric tail), zlib blobs.
-- Audio: FMOD banks (v4 + one v5). Video: Bink. Text DBs: binary.
+- Audio: FMOD banks (v4 + one v5). FSB4 sample tables self-identify by
+  track (`djh2125_sample2.wav` pattern) — exclusives mapped: 2292→0274
+  (11.6MB), 2304→0275 (16.1MB), 2311→0276 (12.4MB), 2315→0277
+  (2MB — small, verify completeness on hardware). Video: Bink.
+  Text DBs: binary.
 
 ## Cheats (33 strings)
 
