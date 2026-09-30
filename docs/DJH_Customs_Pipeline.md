@@ -111,11 +111,13 @@ what Quickplay says. Proven pattern for vocals: setlist
 - FSG container record hash function (for naming carved files properly).
 - XEX-side track DB (does the engine ALSO need the ID somewhere binary?
   Quickplay XML refs suggest XML-driven — test will tell).
-- Note charts FOUND: `AUDIO/Audiotracks/DJHxxxx/DJ_{Beginner,Easy,
-  Medium,Hard,Expert}.xmk` (13-20KB) + `Visual_Markup.xmk` (venue cues)
-  + `Vocals.xmk` (vocal chart). Binary event streams shared across
-  DJ/Vocals charts. Full event decode = next RE milestone. Stems:
-  `DJ.fsb` (~20MB) + `FSS.fsb` (~1MB) alongside. Full-clone customs
-  (TESTCARD001 method) work regardless.
+- Note charts FOUND + PARTIALLY DECODED:
+  `AUDIO/Audiotracks/DJHxxxx/DJ_{Beginner,Easy,Medium,Hard,Expert}.xmk`
+  (13-20KB) + `Visual_Markup.xmk` + `Vocals.xmk`. Layout: header
+  `[ver=2][hash][count][183]`, then `count` 16-byte events with ASCII
+  type tags (DJH2228/Medium: B493 + C237 + A81 + @17 + 8 zero-type +
+  1 M-type; B = probable tap notes). Float timestamps in bodies.
+  Difficulty scales count (837 Med → 1267 Exp). Remaining: per-type
+  parameter map (which byte = which button/stream).
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
