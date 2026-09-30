@@ -76,6 +76,10 @@ levers (QA only).
   Testing + ungrouped) became DJH3's mode-facing setlists (Universal,
   Live, FSPP, GHOST, AI DEMO, DANCE). New IDs on 3: exclusives,
   TST2237/3015/3017/3027/3040/3041/3048/3049, plus 2181/2214/2236.
+- Retail DJH2 (carved from RTM ISO): Quickplay stripped to Credits +
+  39 ungrouped (dev lists removed for ship); Empire identical 6 clubs
+  / 39 setlists. Retail container mirrors proto layout 1:1 (412 FAR,
+  233 FSB, 253 BIK, 99 XML) — same tools, same formats.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
