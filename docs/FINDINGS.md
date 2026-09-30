@@ -1,0 +1,67 @@
+# DJH3 Prototype Findings Log
+
+Source: November milestone dev build (`Default.xex` 2010-11-20, Title ID
+`4156089F`, 3.9GB image). Self-identifies as
+`DJ HERO 3 PROTOTYPE / NOVEMBER MILESTONE BUILD`.
+
+## Library
+
+- 199 referenced track IDs: ~105 DJH1-era + ~94 DJH2-era. Sequel was a
+  merged-library game.
+- 4 exclusive tracks: DJH2292 (91 BPM, dance-marked), DJH2304 (127),
+  DJH2311 (121), DJH2315 (97). Full registry entries, no display names
+  in XML.
+- TrackList registry (inside ATTRIBUTES XML): 119 entries, 115 ondisc,
+  68 with vocal markup. Per-track: ingame/ondisc flags, per-mode
+  leaderboard IDs (battle/quickplay/difficulty/vocals), BPM, audio
+  folder, sample-stream map.
+
+## Modes by completeness
+
+1. **Vocals** — full engine (5 difficulties, 3 accuracy tiers,
+   rap-note handling, per-platform mic DSP, calibration), 68 marked
+   tracks, setlist type + ADD/REMOVE strings. No shipped setlist.
+2. **Party Play** — DJH2 lineage, strings present.
+3. **Twin Deck** — unlockable cheat (`DUALPLATTER` + warnings).
+4. **Dance** — 10 tracks charted, battle/routine strings, cast unmodeled.
+5. **Ghost Challenges** — strings + 3-track setlist, no code.
+6. **Guitar/Drums** — art entries + score column only.
+- Also named: Power Decks, live-setlist blending, freestyle sampling,
+  AI spectate battles, vocals/drums/guitar setlist backgrounds.
+
+## Roster
+
+- DJH2 cast carried over (166 entries), nothing new modeled.
+- Ghost DJs (localized names, no other data): DJ DDZASTER, DJ AMANDA.
+
+## Achievements
+
+- None authored. Scaffolding: 109 medals + criteria, trophy tracker UI
+  (`trophy_tracker` scenes/icons), `?G` score templates, cheat warnings.
+- Recovery recipe in `DJH3_Achievements.md`.
+
+## Formats cracked
+
+- XDVDFS (360 image FS): 16-bit unit-scaled BST offsets. See `tools/`.
+- FSG-FILE-SYSTEM container: BE, 16B records, string table @0x40000.
+- FAR v2: 32B header, 0x120B entries (path + numeric tail), zlib blobs.
+- Audio: FMOD banks (v4 + one v5). Video: Bink. Text DBs: binary.
+
+## Cheats (33 strings)
+
+Assists (AUTOCROSSFADER/AUTODSP/AUTOEUPHORIA/AUTOGEMHIT/AUTOSCRATCH),
+unlocks (UNLOCKALL*), jokes (BEDROOMDJ/RAINBOW/INVISIBLEDJ/MIDAS/
+HAMSTERSWITCH...). Entry UI missing — `g_bUnlockAll*` flags are the
+levers (QA only).
+
+## AI / Tutorial
+
+- Two AI tiers (3.5/4.5-star) + authored scratch patterns.
+- Full lesson scripting (HUD toggles, voice slots, sync points).
+
+## Career
+
+- Empire: 6 clubs, 40 stock setlists (megamix openers, star/win/battle
+  challenges, bonuses). Legacy 2007 GAMEDATA tour is dead weight.
+- Rebuilt: 102-track Universal megalist, first vocals setlist (68),
+  Ibiza02 Encore finale (exclusives, lb 569, 250-star gate).

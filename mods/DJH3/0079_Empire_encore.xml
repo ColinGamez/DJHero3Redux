@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Empire>
+  <!--
+  **********************************************************************************************************
+  **
+  **  IBIZA PART 1  
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>Ibiza01</Venue>
+    <LeaderboardID>664</LeaderboardID>
+    <!-- unlocks -->
+
+    <Unlocks>
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+      	    
+<!--
+      <Setlist megamix="yes">
+        <IDTag>Ibiza1 Branching</IDTag>
+        <LeaderboardID>563</LeaderboardID>
+        <Name>STR_IBIZA1_SETLIST_BONUS</Name>
+
+        <Cover>Cover1</Cover>
+        <Tracks>
+          <Track>TST3001</Track>
+          <Track>TST3004</Track>
+        </Tracks>
+        <Branches>
+          <Branch
+            firsttrack="TST3001" firsttrackend="Megamix Out 1"
+            bridge="TST3002" bridgestart="Megamix In 1" bridgeend="Megamix Out 1"
+            nexttrack="TST3003" nexttrackstart="Megamix In 1"
+		  />
+        </Branches>
+      </Setlist>
+-->
+
+      <Setlist megamix="yes">
+        <IDTag>Ibiza1 Opening Night</IDTag>
+        <LeaderboardID>563</LeaderboardID>
+        <Name>STR_IBIZA1_SETLIST_OPENINGNIGHT</Name>
+
+        <Cover>Cover1</Cover>
+        <Tracks>
+          <Track>DJH2182</Track>
+          <Track>DJH2257</Track>
+          <Track>DJH2191</Track>
+          <Track>DJH2206</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Ibiza1 Opening Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Ibiza1 Setlist1</IDTag>
+        <LeaderboardID>462</LeaderboardID>
+        <Name>STR_IBIZA1_SETLIST_SETLIST1</Name>
+
+        <Cover>Cover2</Cover>
+        <Tracks>
+          <Track>DJH2234</Track>
+          <Track>DJH2195</Track>
+          <Track>DJH2198</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Headphone idtag="PHON02" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Ibiza1 Setlist2</IDTag>
+        <LeaderboardID>463</LeaderboardID>
+        <Name>STR_IBIZA1_SETLIST_SETLIST2</Name>
+
+        <Cover>Cover3</Cover>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="15" />
+        <Tracks>
+          <Track>DJH2165</Track>
+          <Track>DJH2048</Track>
+          <Track>DJH2145</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Headphone idtag="PHON03" />
+            <EmpDJSkin costume="2" skin="1" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Ibiza1 Custom Battle</IDTag>
+        <LeaderboardID>464</LeaderboardID>
+        <Name>STR_IBIZA1_SETLIST_CUSTOMBATTLE</Name>
+
+        <Cover>Cover4</Cover>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="20" />
+        <OpponentDJ>DJ_licdj01</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2211</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_07" />
+            <Track idtag="DJH2211" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Ibiza1 Bonus</IDTag>
+        <LeaderboardID>465</LeaderboardID>
+        <Cover>Cover5</Cover>
+        <Name>STR_IBIZA1_SETLIST_BONUS</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="35" />
+        <Tracks>
+          <Track>DJH2020</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <Track idtag="DJH2020" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+  <!--
+  **********************************************************************************************************
+  **
+  **  LONDON 
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>Quay26</Venue>
+    <LeaderboardID>665</LeaderboardID>
+    <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="30" />
+    <!-- unlocks -->
+
+    <Unlocks>
+      <DJ idtag="DJ_itch" />
+      <DJ idtag="DJ_kitty" />
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+
+      <Setlist megamix="yes">
+        <IDTag>London Opening Night</IDTag>
+        <Cover>Cover6</Cover>
+        <LeaderboardID>564</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_OPENINGNIGHT</Name>
+        <AlternativeName>STR_MEGAMIX_LONDON</AlternativeName>
+
+        <CheatCode>Guetta Blaster</CheatCode>
+        <PlayerDJ>DJ_licdj04</PlayerDJ>
+
+        <Tracks>
+          <Track>DJH2171</Track>
+          <Track>DJH2259</Track>
+          <Track>DJH2193</Track>
+          <Track>DJH2200</Track>
+          <Track>DJH2260</Track>
+          <Track>DJH2231</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="London Opening Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London Setlist1</IDTag>
+        <Cover>Cover7</Cover>
+        <LeaderboardID>466</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_SETLIST1</Name>
+
+        <Tracks>
+          <Track>DJH2204</Track>
+          <Track>DJH2217</Track>
+          <Track>DJH2224</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Skin idtag="itch DJ Costume One Skin Two" />
+            <Skin idtag="kitty DJ Costume One Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London ProFaceOff Battle1</IDTag>
+        <Cover>Cover8</Cover>
+        <LeaderboardID>467</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_PROFACEOFFBATTLE1</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="40" />
+        <OpponentDJ>DJ_Itch</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2193</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="itch DJ Costume Two Skin One" />
+            <Skin idtag="itch DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London Guest Setlist</IDTag>
+        <Cover>Cover9</Cover>
+        <LeaderboardID>468</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_SETLIST2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="45" />
+        <Tracks>
+          <Track>DJH2244</Track>
+          <Track>DJH2167</Track>
+          <Track>DJH2221</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Headphone idtag="PHON04" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London ProFaceOff Battle2</IDTag>
+        <Cover>Cover10</Cover>
+        <LeaderboardID>469</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_PROFACEOFFBATTLE2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="50" />
+        <OpponentDJ>DJ_Kitty</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2167</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="kitty DJ Costume Two Skin One" />
+            <Skin idtag="kitty DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London Custom DJ Battle</IDTag>
+        <Cover>Cover11</Cover>
+        <LeaderboardID>470</LeaderboardID>
+        <Name>STR_LONDON_SETLIST_CUSTOMBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="60" />
+        <OpponentDJ>DJ_licdj04</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2042</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_08" />
+            <Track idtag="DJH2042" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>London Bonus</IDTag>
+        <LeaderboardID>471</LeaderboardID>
+        <Cover>Cover12</Cover>
+        <Name>STR_LONDON_SETLIST_BONUS</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="70" />
+        <Tracks>
+          <Track>DJH2168</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <Track idtag="DJH2168" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+  <!--
+  **********************************************************************************************************
+  **
+  **  BERLIN 
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>Berlin</Venue>
+    <LeaderboardID>666</LeaderboardID>
+    <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="65" />
+    <!-- unlocks -->
+
+    <Unlocks>
+      <DJ idtag="DJ_Avatar" />
+      <DJ idtag="DJ_Vunda" />
+      <EmpDJSkin costume="3" skin="1" />
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+
+      <Setlist megamix="yes">
+        <IDTag>Berlin Opening Night</IDTag>
+        <Cover>Cover13</Cover>
+        <LeaderboardID>565</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_OPENINGNIGHT</Name>
+        <AlternativeName>STR_MEGAMIX_BERLIN</AlternativeName>
+
+        <CheatCode>RZArector</CheatCode>
+        <PlayerDJ>DJ_licdj02</PlayerDJ>
+
+        <Tracks>
+          <Track>DJH2232</Track>
+          <Track>DJH2216</Track>
+          <Track>DJH2237</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Berlin Opening Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin Setlist1</IDTag>
+        <Cover>Cover14</Cover>
+        <LeaderboardID>472</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_SETLIST1</Name>
+
+        <Tracks>
+          <Track>DJH2226</Track>
+          <Track>DJH2177</Track>
+          <Track>DJH2245</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Skin idtag="vunda DJ Costume One Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin ProFaceOff Battle</IDTag>
+        <Cover>Cover15</Cover>
+        <LeaderboardID>473</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_PROFACEOFFBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="80" />
+        <OpponentDJ>DJ_Vunda</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2095</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="vunda DJ Costume Two Skin One" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin Setlist2</IDTag>
+        <Cover>Cover17</Cover>
+        <LeaderboardID>474</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_SETLIST2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="85" />
+        <Tracks>
+          <Track>DJH2207</Track>
+          <Track>DJH2220</Track>
+          <Track>DJH2219</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Headphone idtag="PHON05" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin Guest Setlist</IDTag>
+        <Cover>Cover16</Cover>
+        <LeaderboardID>475</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_SETLIST3</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="95" />
+        <Tracks>
+          <Track>DJH2181</Track>
+          <Track>DJH2213</Track>
+          <Track>DJH2095</Track>
+          <Track>DJH2247</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="16" />
+
+          <Unlocks>
+            <Skin idtag="vunda DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin Custom DJ Battle</IDTag>
+        <Cover>Cover18</Cover>
+        <LeaderboardID>476</LeaderboardID>
+        <Name>STR_BERLIN_SETLIST_CUSTOMBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="110" />
+        <OpponentDJ>DJ_licdj02</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2194</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_10" />
+            <Track idtag="DJH2194" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Berlin Bonus</IDTag>
+        <LeaderboardID>477</LeaderboardID>
+        <Cover>Cover19</Cover>
+        <Name>STR_BERLIN_SETLIST_BONUS</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="120" />
+        <Tracks>
+           <Track>DJH2175</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+
+            <Track idtag="DJH2175" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+  <!--
+  **********************************************************************************************************
+  **
+  **  SHANGHAI
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>Shanghai</Venue>
+    <LeaderboardID>667</LeaderboardID>
+    <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="115" />
+    <!-- unlocks -->
+
+    <Unlocks>
+      <DJ idtag="DJ_Papa" />
+      <DJ idtag="DJ_Trix" />
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+
+      <Setlist megamix="yes">
+        <IDTag>Shanghai Opening Night</IDTag>
+        <Cover>Cover20</Cover>
+        <LeaderboardID>566</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_OPENINGNIGHT</Name>
+        <AlternativeName>STR_MEGAMIX_SHANGHAI</AlternativeName>
+
+        <CheatCode>Open The Trap</CheatCode>
+        <PlayerDJ>DJ_licdj03</PlayerDJ>
+
+        <Tracks>
+          <Track>DJH2128</Track>
+          <Track>DJH2265</Track>
+          <Track>DJH2155</Track>
+          <Track>DJH2006</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Shanghai Opening Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai Setlist1</IDTag>
+        <Cover>Cover21</Cover>
+        <LeaderboardID>478</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_SETLIST1</Name>
+
+        <Tracks>
+          <Track>DJH2010</Track>
+          <Track>DJH2178</Track>
+          <Track>DJH2201</Track>
+          <Track>DJH2170</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="16" />
+
+          <Unlocks>
+            <Skin idtag="trix DJ Costume One Skin Two" />
+            <Skin idtag="papa DJ Costume One Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai ProFaceOff Battle1</IDTag>
+        <Cover>Cover22</Cover>
+        <LeaderboardID>479</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_PROFACEOFFBATTLE1</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="140" />
+        <OpponentDJ>DJ_Trix</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2166</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="trix DJ Costume Two Skin One" />
+            <Skin idtag="trix DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai Guest Setlist</IDTag>
+        <Cover>Cover23</Cover>
+        <LeaderboardID>480</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_SETLIST2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="145" />
+        <Tracks>
+          <Track>DJH2088</Track>
+          <Track>DJH2144</Track>
+          <Track>DJH2166</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Headphone idtag="PHON06" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai ProFaceOff Battle2</IDTag>
+        <Cover>Cover24</Cover>
+        <LeaderboardID>481</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_PROFACEOFFBATTLE2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="150" />
+        <OpponentDJ>DJ_Papa</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2010</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="papa DJ Costume Two Skin One" />
+            <Skin idtag="papa DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai Custom DJ Battle</IDTag>
+        <Cover>Cover25</Cover>
+        <LeaderboardID>482</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_CUSTOMBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="155" />
+        <OpponentDJ>DJ_licdj03</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2179</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_11" />
+            <Track idtag="DJH2179" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Shanghai Bonus</IDTag>
+        <LeaderboardID>483</LeaderboardID>
+        <Name>STR_SHANGHAI_SETLIST_BONUS</Name>
+
+        <Cover>Cover26</Cover>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="170" />
+        <Tracks>
+          <Track>DJH2235</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <Track idtag="DJH2235" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+  <!--
+  **********************************************************************************************************
+  **
+  **  LAS VEGAS
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>LasVegas</Venue>
+    <LeaderboardID>668</LeaderboardID>
+    <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="165" />
+    <!-- unlocks -->
+
+    <Unlocks>
+      <DJ idtag="DJ_Jug" />
+      <DJ idtag="DJ_Cleet" />
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+
+      <Setlist megamix="yes">
+        <IDTag>Las Vegas Opening Night</IDTag>
+        <Cover>Cover27</Cover>
+        <LeaderboardID>567</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_OPENINGNIGHT</Name>
+        <AlternativeName>STR_MEGAMIX_LASVEGAS</AlternativeName>
+
+        <CheatCode>In Trance We Trust</CheatCode>
+        <PlayerDJ>DJ_licdj05</PlayerDJ>
+
+        <Tracks>
+          <Track>DJH2218</Track>
+          <Track>DJH2262</Track>
+          <Track>DJH2233</Track>
+          <Track>DJH2228</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Las Vegas Opening Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Las Vegas Setlist2</IDTag>
+        <Cover>Cover31</Cover>
+        <LeaderboardID>487</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_SETLIST2</Name>
+
+
+        <Tracks>
+          <Track>DJH2240</Track>
+          <Track>DJH2241</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="8" />
+
+          <Unlocks>
+            <Skin idtag="jug DJ Costume One Skin Two" />
+            <Skin idtag="cleet DJ Costume One Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Las Vegas ProFaceOff Battle1</IDTag>
+        <Cover>Cover29</Cover>
+        <LeaderboardID>485</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_PROFACEOFFBATTLE1</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="180" />
+        <OpponentDJ>DJ_Jug</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2125</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="jug DJ Costume Two Skin One" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+	  <Setlist>
+        <IDTag>Las Vegas Guest Setlist</IDTag>
+        <Cover>Cover35</Cover>
+        <LeaderboardID>493</LeaderboardID>
+        <Name>STR_IBIZA02_SETLIST_HOMECOMINGSETLIST</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="185" />
+        <Tracks>
+          <Track>DJH2199</Track>
+          <Track>DJH2212</Track>
+          <Track>DJH2210</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+		  <Skin idtag="jug DJ Costume Two Skin Two" />  
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+      <Setlist>
+        <IDTag>Las Vegas Setlist1</IDTag>
+        <Cover>Cover28</Cover>
+        <LeaderboardID>484</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_SETLIST1</Name>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="195" />
+
+        <Tracks>
+          <Track>DJH2239</Track>
+          <Track>DJH2125</Track>
+          <Track>DJH2192</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Skin idtag="cleet DJ Costume Two Skin One" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Las Vegas ProFaceOff Battle2</IDTag>
+        <Cover>Cover32</Cover>
+        <LeaderboardID>488</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_PROFACEOFFBATTLE2</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="200" />
+        <OpponentDJ>DJ_cleet</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2240</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="cleet DJ Costume Two Skin Two" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Las Vegas Custom DJ Battle</IDTag>
+        <Cover>Cover33</Cover>
+        <LeaderboardID>489</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_CUSTOMBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="205" />
+        <OpponentDJ>DJ_licdj05</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2238</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_09" />
+            <Track idtag="DJH2238" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Vegas Bonus</IDTag>
+        <Cover>Cover34</Cover>
+        <LeaderboardID>490</LeaderboardID>
+        <Name>STR_VEGAS_SETLIST_BONUS</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="215" />
+        <Tracks>
+          <Track>DJH2190</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <Track idtag="DJH2190" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+  <!--
+  **********************************************************************************************************
+  **
+  **  IBIZA02
+  **
+  **********************************************************************************************************
+  -->
+  <Club>
+
+    <Venue>IBIZA02</Venue>
+    <LeaderboardID>669</LeaderboardID>
+    <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="210" />
+    <!-- unlocks -->
+
+    <Unlocks>
+      <DJ idtag="DJ_candy" />
+    </Unlocks>
+
+    <!-- sets -->
+    <Setlists>
+
+      <Setlist megamix="yes">
+        <IDTag>Ibiza02 Closing Night</IDTag>
+        <Cover>Cover36</Cover>
+        <LeaderboardID>568</LeaderboardID>
+        <Name>STR_IBIZA02_SETLIST_CLOSINGNIGHT</Name>
+
+        <Tracks>
+          <Track>DJH2197</Track>
+          <Track>DJH2264</Track>
+          <Track>DJH2024</Track>
+          <Track>DJH2242</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Ibiza02 Closing Night" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+      <Setlist>
+        <IDTag>Ibiza02 Custom DJ Battle</IDTag>
+        <Cover>Cover38</Cover>
+        <LeaderboardID>492</LeaderboardID>
+        <Name>STR_IBIZA02_SETLIST_CUSTOMBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="220" />
+        <OpponentDJ>DJ_licdj01</OpponentDJ>
+        <Type>CustomBattle</Type>
+        <Tracks>
+          <Track>DJH2230</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Deck idtag="Decks_12" />
+            <Track idtag="DJH2230" />
+            <DJ idtag="DJ_licdj01" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+      <Setlist>
+        <IDTag>Ibiza02 ProFaceOff Battle</IDTag>
+        <Cover>Cover37</Cover>
+        <LeaderboardID>491</LeaderboardID>
+        <Name>STR_IBIZA02_SETLIST_PROFACEOFFBATTLE</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="225" />
+        <OpponentDJ>DJ_candy</OpponentDJ>
+        <Type>Checkpoint</Type>
+        <Tracks>
+          <Track>DJH2242</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="win" />
+
+          <Unlocks>
+            <Skin idtag="candy DJ Costume One Skin Two" />
+            <Skin idtag="candy DJ Costume Two Skin One" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+
+
+
+      <Setlist>
+
+		<IDTag>Ibiza02 Homecoming Setlist</IDTag>
+        <Cover>Cover30</Cover>
+        <LeaderboardID>486</LeaderboardID>
+        <Name>STR_LASVEGAS_SETLIST_GUEST</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="235" />
+        <Tracks>
+          <Track>DJH2184</Track>
+          <Track>DJH2229</Track>
+          <Track>DJH2222</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="stars" param1="12" />
+
+          <Unlocks>
+            <Skin idtag="candy DJ Costume Two Skin Two" />
+            <DJ idtag="DJ_empdj07" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist> 
+
+
+      <Setlist>
+        <IDTag>Ibiza2 Bonus</IDTag>
+        <LeaderboardID>494</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_IBIZA2_SETLIST_BONUS</Name>
+
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="245" />
+        <Tracks>
+          <Track>DJH2227</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <Track idtag="DJH2227" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+      <!-- REDEUX encore: the 4 DJH3-exclusive tracks finally have a career home -->
+      <Setlist megamix="yes">
+        <IDTag>Ibiza02 Encore</IDTag>
+        <LeaderboardID>569</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_LIVE_SETLIST</Name>
+        <InitiallyLocked unlockcriteria="empire_stars" unlockthreshold="250" />
+        <Tracks>
+          <Track>DJH2292</Track>
+          <Track>DJH2304</Track>
+          <Track>DJH2311</Track>
+          <Track>DJH2315</Track>
+        </Tracks>
+
+        <Challenge>
+          <Criteria type="completesetlist" />
+
+          <Unlocks>
+            <MegaMix idtag="Ibiza02 Encore" />
+          </Unlocks>
+
+        </Challenge>
+      </Setlist>
+
+
+    </Setlists>
+
+  </Club>
+
+
+</Empire>

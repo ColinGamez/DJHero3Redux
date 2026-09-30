@@ -1,0 +1,39 @@
+# Game content — never commit (unreleased proto dumps stay local)
+*.iso
+*.bin
+*.cue
+*.xex
+*.wad
+*.far
+*.fsb
+*.bik
+*.img
+*.sdef
+*.grp
+*.met
+*.mii
+*.mov
+*.jpg
+*.JPG
+*.png
+*.map
+X360/
+/DJH3/
+DJH3Redux-local/
+*.stock.xml
+*.stock.*
+config.stock.xml
+
+# Privacy / machine-specific
+private/
+*.pkg.backup
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editors
+Desktop.ini
+Thumbs.db
+.vscode/
