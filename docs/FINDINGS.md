@@ -79,3 +79,6 @@ levers (QA only).
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
+- The registry carries the devs' own todo list: 25 `WorkInProgress`
+  tracks (newest DJH2264/2265, TST2237/3015/3017/3027/3048/3049, all 17
+  TUT2000-2016). TST3040/3041 are finished. Tutorials never got voice.
