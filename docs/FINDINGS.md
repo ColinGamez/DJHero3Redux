@@ -69,6 +69,6 @@ levers (QA only).
   challenges, bonuses). Legacy 2007 GAMEDATA tour is dead weight.
 - Rebuilt: 102-track Universal megalist, first vocals setlist (68),
   Ibiza02 Encore finale (exclusives, lb 569, 250-star gate).
-- Note: DJH2 proto tree has NO EmpireMode XML (career is XEX-side or
-  in FAR/EmpireMode brand dirs there). DJH3's standalone Empire file
-  (0079) is the better career base — another reason Redux builds on 3.
+- Note: DJH3's Empire is a direct copy of the DJH2 proto career
+  (same 39 setlists) + 1 commented-out test block. Corrections logged;
+  early claims otherwise were file-listing errors.
