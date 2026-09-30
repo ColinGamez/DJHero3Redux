@@ -86,6 +86,9 @@ levers (QA only).
 - Registry diff retail→DJH3: ZERO cuts, 13 additions (4 exclusives,
   `DJH2999 Placeholder`, 8 TST). Full backward compatibility — the
   sequel only ever added.
+- `DJH2999 Placeholder` is a full registry entry (BPM 118, audio
+  folder, deck multipliers, `selectableinfem=no`) — the reserved-slot
+  pattern customs should copy. TUT set identical (17 each).
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
