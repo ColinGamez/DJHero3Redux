@@ -135,8 +135,10 @@ what Quickplay says. Proven pattern for vocals: setlist
   (79 on Expert), confirming it as a shared section flag, not lane
   data. Probable: crossfade/scratch gestures.
 - Small fry, all solved: M-type = author signature + chart name
-  (`Matt Flint\0Intro`, 1 per file); 0x00-type = section-name text
-  events (`Chorus 4`, `Bridge`, `Break A/B`, `Build A`, `Outro`);
+  (`Matt Flint\0Intro`, 1 per file — Flint was FreeStyle's DJ1/DJ2
+  MIDI designer, i.e. the note-chart author himself signing his
+  work); 0x00-type = section-name text events (`Chorus 4`, `Bridge`,
+  `Break A/B`, `Build A`, `Outro`);
   @-type = section markers with percent values (67/99/100);
   A-type = difficulty-scaled (81→115) with bitmask byte11 —
   probable star-power/euphoria triggers.
