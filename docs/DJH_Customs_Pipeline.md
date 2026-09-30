@@ -122,6 +122,10 @@ what Quickplay says. Proven pattern for vocals: setlist
   byte14 ~always 0 + 12 hits of a difficulty-scaled value (58 Beg /
   79 Exp, same count — section flag?); byte15 dominated by 0/100 with
   value 1 strongly Expert-associated (5 Beg → 78 Exp — harder gem
-  type?). Remaining: confirm lane semantics on hardware.
+  type?). Cross-difficulty alignment (Beg vs Exp, 365 shared
+  timestamps): 214 byte-identical; 93 upgrade lane with difficulty;
+  high b15 values (109-195, one-offs) = probable special gems;
+  Expert adds 173 notes (mostly lane 0). Authoring rule of thumb:
+  B-events + timestamps + b15 in {0,100} (+1 for spice).
 - `.sdef` = binary sample-name→index map + default volumes (NOT text).
   Kiosk-disc `.sdef` confirms tutorial stingers + `_kiosk` variants.
