@@ -1,107 +1,90 @@
-# DJ HERO 3 — Achievement Design (built off prototype scaffolding)
+# DJ HERO 3 — Achievements FINAL (50 / 1000G)
 
-> Source: November milestone proto (`4156089F`). No XAchievements were ever
-> authored — this list is derived from what FreeStyle left behind:
-> `OnlineMedalList` (109 medals + criteria), the trophy/medal tracker UI
-> (`0087` FAR), hint strings (`0084`: `Secret Achievement`, `?G` template,
-> cheat warnings), engine attributes (`s_fSpinBackAchievementTimeLimit`,
-> `g_bUnlockAll*` debug flags), and DJH3-only features (Dance Battle).
+> Aligned to the DJH2 retail list (50/1000G, TrueAchievements
+> reference). `←DJH2` = carried/evolved. `NEW` = DJH3-only.
+> Scaffolding: 109 medals + criteria, trophy tracker UI, hint
+> strings, engine attributes, TrackList registry.
 >
-> Shape: 50 achievements / 1000G, mirroring DJH2's structure.
-> `Scaffold:` cites the exact proto source for each.
+> Hard rule learned from retail: 8 DJH2 achievements DIED as
+> discontinued (all online-dependent). Nothing here requires servers.
 
-## Empire / Tour (190G)
+## Empire (9 — 220G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 1 | First Night Out | Complete your first Empire set | 10 | Empire XML clubs |
-| 2 | Club Hopper | Complete sets in 3 different clubs | 15 | Empire clubs |
-| 3 | Ibiza Nights | Clear the Ibiza club | 20 | `Venue Ibiza01` |
-| 4 | Headliner | Clear every Empire club | 50 | Empire completion |
-| 5 | Five Star General | 5-star any Empire set | 15 | star ratings |
-| 6 | Perfectionist | 5-star 10 Empire sets | 30 | star ratings |
-| 7 | Dance Commander | Win a Dance Battle | 20 | `DANCE BATTLE` hint |
-| 8 | Dancer vs DJ | Win as dancer AND as DJ | 30 | `DANCER VS DJ` hint |
+| Name | How | G |
+|------|-----|---|
+| Opening Act | Play your opening night in Empire | 10 |  <!-- ←DJH2 -->
+| Ibiza Nights | Clear the Ibiza club | 20 |
+| Headliner | Clear every Empire club | 85 |
+| Five Star General | 5-star any Empire set | 15 |
+| Perfectionist | 5-star 10 Empire sets | 30 |
+| Bonus | Unlock all the Empire bonus mixes | 20 |  <!-- ←DJH2 -->
+| Rise To The Challenge | Complete 3 Empire Setlist Challenges | 15 |  <!-- ←DJH2 -->
+| Dance Commander | Win a Dance Battle | 10 |  <!-- NEW -->
+| Dancer vs DJ | Win as dancer AND as DJ | 15 |  <!-- NEW -->
 
-## Performance (160G)
+## Performance (9 — 120G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 9 | On a Roll | 50-note streak | 5 | `online_50streaks` |
-| 10 | Centurion | 100-note streak | 10 | `online_100streaks` |
-| 11 | Double Up | 200-note streak | 15 | `online_200streaks` |
-| 12 | Triple Threat | 300-note streak | 20 | `online_300streaks` |
-| 13 | Halfway to Heaven | 500-note streak | 30 | `online_500streaks` |
-| 14 | Precision Cuts | 300 perfect-timing notes | 10 | `online_perfect_timing` |
-| 15 | Metronome | 1000 perfect-timing notes | 20 | `online_perfect_timing` |
-| 16 | Euphoria! | Trigger Euphoria 10 times | 10 | `online_euphorias 10` |
-| 17 | Euphoric | Trigger Euphoria 100 times | 25 | `online_euphorias 100` |
-| 18 | Spinback King | Nail a spinback inside the window | 15 | `s_fSpinBackAchievementTimeLimit` |
+| On a Roll | 50-note streak | 5 |
+| Centurion | 100-note streak | 10 |
+| Double Up | 200-note streak | 15 |
+| Triple Threat | 300-note streak | 20 |
+| Precision Cuts | 300 perfect-timing notes | 10 |
+| Metronome | 1000 perfect-timing notes | 20 |
+| Euphoria! | Trigger Euphoria 10 times | 10 |
+| Euphoric | Trigger Euphoria 100 times | 25 |
+| Spinback King | Nail a spinback inside the window | 5 |  <!-- s_fSpinBackAchievementTimeLimit -->
 
-## Technique (130G)
+## Technique (5 — 90G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 19 | Wax Rookie | 1000 scratches | 5 | `online_scratches` |
-| 20 | Wax Veteran | 8000 scratches | 15 | `online_scratches` |
-| 21 | Wax Legend | 25000 scratches | 40 | `online_scratches 25000` |
-| 22 | Crossfader | 2000 crossfades | 10 | `online_crossfades` |
-| 23 | Fader Master | 20000 crossfades | 25 | `online_crossfades 20000` |
-| 24 | Tap Happy | 3000 taps | 10 | `online_taps` |
-| 25 | Button Masher | 10000 taps | 20 | `online_taps 10000` |
-| 26 | Spike Driver | 25 crossfade spikes | 5 | `online_crossfade_spikes 25` |
+| Scratching The Itch | 25,000 scratches | 20 |  <!-- ←DJH2 -->
+| Fades Of Fury | 20,000 crossfades | 20 |  <!-- ←DJH2 -->
+| Tappity Tap Tap Tappy | 50,000 taps | 20 |  <!-- ←DJH2 -->
+| Fader Master | Complete a mix hitting every crossfade | 15 |
+| To The Left | Only crossfade left in all Freestyle sections, any mix | 15 |  <!-- ←DJH2 -->
 
-## Battles (220G)
+## Battles (9 — 230G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 27 | Challenger | Play 5 battles | 5 | `online_battles 5` |
-| 28 | Contender | Play 50 battles | 15 | online_battles ladder |
-| 29 | Battle Royale | Play 200 battles | 40 | `online_battles 100` (top medal tier) |
-| 30 | Winner | Win your first battle | 10 | `online_wins 1` |
-| 31 | Dominator | 25 wins | 20 | `online_wins 25` |
-| 32 | Untouchable | 100 wins | 50 | `online_wins 100` |
-| 33 | Streaker | 5 consecutive wins | 15 | `online_consecutive_wins` |
-| 34 | Unstoppable | 25 consecutive wins | 30 | `online_consecutive_wins` |
-| 35 | Mix Master | 100 mix wins | 25 | `online_mixwins 100` |
-| 36 | Grade Grinder | Reach Grade 25 | 10 | `online_grade` |
+| Challenger | Play 5 battles | 5 |
+| You Want Some? | Complete 30 battles | 15 |  <!-- ←DJH2, offline-countable -->
+| Battle Royale | Play 200 battles | 30 |
+| Winner | Win your first battle | 10 |
+| Battle Star Spectacular | 50 battle wins | 55 |  <!-- ←DJH2 -->
+| Streaker | 5 consecutive wins | 15 |
+| Mix Master | 100 mix wins | 25 |
+| Encore | Clear Ibiza02 Encore | 45 |  <!-- NEW, our setlist -->
+| Studio Session | Clear the Studio vocals club | 30 |  <!-- NEW, our club -->
 
-## Collection (135G)
+## Modes (7 — 110G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 37 | New Threads | Unlock 10 costumes | 10 | `online_costumes 10` |
-| 38 | Fashion Icon | Unlock 20 costumes | 20 | `online_costumes 20` |
-| 39 | Roster Call | Unlock 5 DJs | 10 | DJList roster |
-| 40 | Full Deck | Unlock every DJ | 40 | DJList roster |
-| 41 | Brand Deal | Unlock 5 brands | 10 | BrandList |
-| 42 | Crate Digger | Play 25 different mixes | 15 | Quickplay setlists |
-| 43 | Archivist | Play every mix in the game | 30 | merged 1+2+3 library |
+| The Emperor | Win all DJ Battle setlists in Empire | 20 |  <!-- ←DJH2 -->
+| Big Bad Boss | Beat all employee-DJ Checkpoint Battles in Empire | 15 |  <!-- ←DJH2 -->
+| Professional Face Removal | Win 5 Star Battles | 15 |  <!-- ←DJH2 -->
+| Mama Said... | Win a Checkpoint Battle by knockout | 10 |  <!-- ←DJH2 -->
+| Accumulate! | Win 10 Accumulator mixes with a 50+ streak | 15 |  <!-- ←DJH2 -->
+| Like Bacon? | Win 6 Streak mixes by a 20-streak margin | 15 |  <!-- ←DJH2 -->
+| Twin Decks | Win a battle in Twin Deck mode | 20 |  <!-- NEW -->
 
-## Secrets & Misc (165G)
+## Collection (5 — 120G)
 
-| # | Name | How | G | Scaffold |
-|---|------|-----|---|----------|
-| 44 | Secret Achievement | Find the secret (their literal string!) | 25 | `Secret Achievement` hint |
-| 45 | Cheat On, Scores Off | Enable any cheat | 5 | "cheat will turn off achievements" hint |
-| 46 | Party Animal | Play a Party Play session | 10 | Party Play mode |
-| 47 | Soundcheck | Complete calibration | 5 | Calibration mode |
-| 48 | Tutorial Graduate | Finish the tutorial | 5 | Tutorial setlists |
-| 49 | November Milestone | Boot the prototype | 5 | `NOVEMBER MILESTONE BUILD` |
-| 50 | New To DJ Hero 3 | Trigger every NEW hint | 110 | `NEW TO DJ HERO 3` hint |
+| Fashion Icon | Unlock 20 costumes | 20 |
+| I Have The Power Decks! | Unlock all the Power Decks | 15 |  <!-- ←DJH2 -->
+| Full Deck | Unlock every DJ | 20 |
+| Archivist | Play every mix in the game | 50 |
+| Ghostbuster | Win a Ghost Challenge | 15 |  <!-- NEW -->
 
-## Total: 190+160+130+220+135+165 = 1000G, 50 achievements
+## Vocals (4 — 75G)
 
-## Notes / deviations from scaffolding
+| Perfect Pitch | 100% of vocal notes in a mix | 15 |  <!-- ←DJH2 -->
+| Microphonical Magic! | 200 vocal streak in any vocal mix | 15 |  <!-- ←DJH2 -->
+| Go Crazy Broadway Style! | Perform vocals in every supporting mix | 30 |  <!-- ←DJH2, now shippable -->
+| The Magic Number | Play a mix with another DJ and a Vocalist | 15 |  <!-- ←DJH2 -->
 
-- Medal thresholds are online-grind tuned (e.g. battles medal tops at
-  threshold 100 while named "200 Battles") — Gamerscore tiers use the
-  medal *names* as the design intent, thresholds re-tuned for sanity.
-- `#28 Contender`: medal file only goes to threshold 100 ("200 Battles"
-  name); achievement keeps the name, threshold 200 as written.
-- `#50` at 110G breaks the 5-50G convention deliberately — it's the
-  "see everything new" meta-achievement. Split into smaller ones if
-  cert-style compliance matters (it doesn't — this is a mod).
-- Icons: `medal_*.img` + trophy textures already in the `0087` FAR.
-- Debug: `g_bUnlockAllContent=TRUE` in XEX attributes unlocks all for
-  testing the full list fast.
+## Secrets (2 — 35G)
+
+| Secret Achievement | Find the secret (their literal string) | 25 |
+| Credit Is Due | View the game credits | 10 |  <!-- ←DJH2 -->
+
+## Total
+
+220 + 120 + 90 + 230 + 110 + 120 + 75 + 35 = **1000G, 50 achievements.**
+Carried from DJH2: 24. New: 26.
