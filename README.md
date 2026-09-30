@@ -1,4 +1,4 @@
-# DJ Hero 3 Redeux
+# DJ Hero 3 Redux
 
 Finishing the unreleased DJ Hero 3 — merged 1+2+3 library, new career,
 first-ever vocals setlist, and a authored-from-scaffolding achievement
