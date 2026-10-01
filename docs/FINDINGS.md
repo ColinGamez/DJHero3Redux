@@ -103,6 +103,10 @@ levers (QA only).
   (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
   in chunks — that mode's routing lives elsewhere (cheat flag +
   input layer). Test chunk names are handy battle-customs scaffolds.
+- Twin Deck input layer is COMPLETE: `s_bEnableDualPlatters` master
+  switch, `s_bBothPlattersCanStreamPress`, per-platter tolerances
+  [0]/[1], dual timing windows per difficulty (INSIDE/OUTSIDE). Like
+  vocals: engine done, entry missing.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
