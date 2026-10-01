@@ -89,6 +89,10 @@ levers (QA only).
 - `DJH2999 Placeholder` is a full registry entry (BPM 118, audio
   folder, deck multipliers, `selectableinfem=no`) — the reserved-slot
   pattern customs should copy. TUT set identical (17 each).
+- Video gap: retail carries 253 BIKs / 3.2GB (max 283MB — full venue
+  films); DJH3 milestone has 119 / 279MB. Venue movies are the
+  thinnest part of the proto — retail films are the upgrade path if
+  mappable.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
