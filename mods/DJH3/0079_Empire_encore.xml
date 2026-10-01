@@ -784,6 +784,23 @@
 
     <!-- sets -->
     <Setlists>
+      <!-- REDEUX ghost battle: battle your own performance -->
+      <Setlist>
+        <IDTag>Vegas Ghost Battle</IDTag>
+        <LeaderboardID>575</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_GHOST_CHALLENGES</Name>
+        <Tracks>
+          <Track>DJH2304</Track>
+          <Track>DJH2311</Track>
+          <Track>DJH2315</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="win" />
+          <Unlocks>
+          </Unlocks>
+        </Challenge>
+      </Setlist>
       <!-- REDEUX dance battle: all dance-marked openers + exclusives -->
       <Setlist>
         <IDTag>Vegas Dance Battle</IDTag>
