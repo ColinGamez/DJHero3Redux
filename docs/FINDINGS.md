@@ -104,6 +104,12 @@ levers (QA only).
   difficulty tables + frontend mix volumes REMOVED. Vocals engine
   dates to this 3-week window. Engine going object-oriented
   (C++ class-scoped vars appear).
+- Same window, second half: battle achievement thresholds + spinback
+  rewind vars + directional xfader tolerances ADDED; old mic volume
+  scales (replaced by pitch detector path), battle rating thresholds,
+  and ONLINE frontend sounds (hurryup/setlistedit/unlock/venue-move)
+  REMOVED. They were simplifying: new mic path in, online frontend
+  and legacy tables out.
 - Battle chunks share one vocabulary (players p1/p2/both × streams
   A/B/S + checkpoints); DJH3's 7 extra shapes are NAMED test chunks
   (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
