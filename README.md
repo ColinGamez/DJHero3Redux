@@ -16,14 +16,19 @@ list — built on the November 2010 milestone prototype.
   - `DJH_Customs_Pipeline.md` — FAR format, TrackPack layout, wiring
     checklist, open unknowns
 - `mods/DJH3/` — drop-in mod XMLs (back up your files first)
-  - `0080_Quickplay_megalist_vocals.xml` — 91-track Universal megalist
-    + first vocals setlist (68 tracks)
-  - `0079_Empire_encore.xml` — Ibiza02 Encore finale (4 exclusive
-    tracks, lb 569, 250-star gate)
+  - `0080_Quickplay_megalist_vocals.xml` — 91-track Universal megalist,
+    68-track vocals setlist, 10-track dance megalist
+  - `0079_Empire_encore.xml` — 47-setlist career: Encore finale
+    (exclusives, lb 569), Studio vocals club (lb 571-573/577), Vegas
+    Dance + Ghost battles (lb 574-575), Ibiza Party Opener (lb 576)
+  - `0156_Credits_redeux.xml` — Redux company block in the roll
+  - `Attributes_Global_twindeck.xml` — Twin Deck door (TESTCARD004)
+  - `Attributes_Global_QAunlock.xml` — QA unlock-all (verify, relock)
 - `tools/` — `xdvdfs.py` (360 image lister/extractor), `fsg_extract.py`
   (FreeStyle container parser), `carve.py` + `magicscan.py` (magic
-  carver). Temp-grade scripts, improve freely.
-- `testcards/` — hardware test scripts with pass/fail reads.
+  carver), `forge_chart.py` (chart info/flip/inject). Temp-grade
+  scripts, improve freely.
+- `testcards/` — SESSION.md runbook + cards 001-004 with pass/fail reads.
 
 ## Status
 
