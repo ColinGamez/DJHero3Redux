@@ -71,12 +71,16 @@ or — much easier — **chart-swap customs**: re-chart existing stems.
 ## 5. Wiring a new mix ID into the game
 
 1. `DJH3/0080` Quickplay → add `<Track>DJHxxxx</Track>` to Universal
-   Setlist (proven: 102-track megalist already in place).
+   Setlist (proven: 92-track megalist already in place).
 2. `DJH3/0079` Empire → add setlist block to a club (proven: Ibiza02
-   Encore pattern — IDTag, LeaderboardID (unused 571+), Cover, Name
+   Encore pattern — IDTag, LeaderboardID (unused 577+), Cover, Name
    STR_, InitiallyLocked gate, Tracks, Challenge/Criteria/Unlocks).
 3. `TrackPacks/DJHxxxx/` dir with the FAR bank(s).
 4. DJ/venue/env must already exist (DJList/EnvironmentList) or be added.
+5. HARD RULE (learned 2026-09-30): reference ONLY IDs present in BOTH
+   the TrackList registry AND audio banks. 10 tree-era IDs looked
+   valid but have neither on the DJH3 disc — pruned from the megalist
+   after the audit caught them.
 
 ## 6. THE TrackList registry (DJH3 `0000` file — authoritative!)
 
