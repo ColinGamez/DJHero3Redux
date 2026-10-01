@@ -103,6 +103,15 @@ levers (QA only).
   (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
   in chunks — that mode's routing lives elsewhere (cheat flag +
   input layer). Test chunk names are handy battle-customs scaffolds.
+- Loading backgrounds: 20 CUSTOM code-ids mapped (vocals, drums,
+  guitar, double-deck, party-play, custom-setlist, battles...) but
+  ZERO art files exist on disc — paths without pictures. Our modes
+  (vocals/party/double-deck/custom) inherit hooks with no art; custom
+  loading screens are an open art task, not a code task.
+  A/B/S + checkpoints); DJH3's 7 extra shapes are NAMED test chunks
+  (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
+  in chunks — that mode's routing lives elsewhere (cheat flag +
+  input layer). Test chunk names are handy battle-customs scaffolds.
 - Twin Deck input layer is COMPLETE: `s_bEnableDualPlatters` master
   switch, `s_bBothPlattersCanStreamPress`, per-platter tolerances
   [0]/[1], dual timing windows per difficulty (INSIDE/OUTSIDE). Like
