@@ -111,6 +111,10 @@ levers (QA only).
   volumes, auto-hit sampler, per-difficulty overlap tolerances,
   `g_bPlayFreestyleSample`). Also: a variable literally named
   `s_uJesusChristNumFSStars`. Dev humor survives.
+- Battle modes fully wired in-engine (checkpoint rewinds/kickout/
+  tolerances, streak arrows, achievement-named thresholds like
+  `s_uChiggedyCheckpointWin`). The retail battle modes carried over
+  working — no doors needed here.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
