@@ -19,6 +19,23 @@
 
     <!-- sets -->
     <Setlists>
+      <!-- REDEUX pad-friendly party opener: gentlest BPMs first -->
+      <Setlist>
+        <IDTag>Ibiza Party Opener</IDTag>
+        <LeaderboardID>576</LeaderboardID>
+        <Cover>Cover1</Cover>
+        <Name>STR_FREESTYLE_PARTYPLAY</Name>
+        <Tracks>
+          <Track>DJH2048</Track>
+          <Track>DJH2224</Track>
+          <Track>DJH2184</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="completesetlist" />
+          <Unlocks>
+          </Unlocks>
+        </Challenge>
+      </Setlist>
       	    
 <!--
       <Setlist megamix="yes">
