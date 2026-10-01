@@ -99,8 +99,10 @@ levers (QA only).
   tracks via self-ID (zero multi-track banks). Remaining 148 are
   system banks (crowd/menus/SFX). One bank per mix, always.
 - Battle chunks share one vocabulary (players p1/p2/both × streams
-  A/B/S + checkpoints); DJH3 adds 7 new combos + 1 file over retail.
-  Twin Deck patterns live in the delta.
+  A/B/S + checkpoints); DJH3's 7 extra shapes are NAMED test chunks
+  (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
+  in chunks — that mode's routing lives elsewhere (cheat flag +
+  input layer). Test chunk names are handy battle-customs scaffolds.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
