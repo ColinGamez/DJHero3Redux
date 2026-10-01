@@ -9,7 +9,7 @@ tracks + Vocals setlist type + ADD/REMOVE VOCALS UI.
 1. `DJH3/0080_qxml.xml` — new `Vocals Setlist` (8th setlist,
    `Name=STR_SetListVocals`, selectable) with all 68 vocal-marked
    tracks. Stock backed up to `0080_qxml.stock.xml` (which itself
-   already carries the 102-track Universal megalist — re-apply megalist
+   already carries the 91-track Universal megalist — re-apply megalist
    first if restoring!).
 2. Nothing else touched. TrackList registry, engine, strings all stock.
 

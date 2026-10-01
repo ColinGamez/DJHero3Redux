@@ -16,7 +16,7 @@ list — built on the November 2010 milestone prototype.
   - `DJH_Customs_Pipeline.md` — FAR format, TrackPack layout, wiring
     checklist, open unknowns
 - `mods/DJH3/` — drop-in mod XMLs (back up your files first)
-  - `0080_Quickplay_megalist_vocals.xml` — 102-track Universal megalist
+  - `0080_Quickplay_megalist_vocals.xml` — 91-track Universal megalist
     + first vocals setlist (68 tracks)
   - `0079_Empire_encore.xml` — Ibiza02 Encore finale (4 exclusive
     tracks, lb 569, 250-star gate)
