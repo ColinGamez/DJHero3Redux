@@ -67,7 +67,7 @@ levers (QA only).
 
 - Empire: 6 clubs, 40 stock setlists (megamix openers, star/win/battle
   challenges, bonuses). Legacy 2007 GAMEDATA tour is dead weight.
-- Rebuilt: 102-track Universal megalist, first vocals setlist (68),
+- Rebuilt: 92-track Universal megalist, first vocals setlist (68),
   Ibiza02 Encore finale (exclusives, lb 569, 250-star gate).
 - Note: DJH3's Empire is a direct copy of the DJH2 proto career
   (same 39 setlists) + 1 commented-out test block. Corrections logged;
