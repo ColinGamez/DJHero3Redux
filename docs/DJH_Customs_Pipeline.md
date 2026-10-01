@@ -116,7 +116,14 @@ what Quickplay says. Proven pattern for vocals: setlist
 Lane-flip customs need no repacking — hardware test will confirm
 semantics audibly (which stream the flipped notes play on).
 
-## 8. Open unknowns (do not block v1 customs)
+## 8. String swaps (proven method)
+
+0084-style string blobs are NUL-separated sequential tables: same-length
+swaps preserve every offset (proven: 2-site swap, size identical, diffs
+localized). Length-changing edits break offsets — never do those.
+Use for: mode/menu rewording within exact character budgets.
+
+## 9. Open unknowns (do not block v1 customs)
 
 - Exact FAR tail field map (off/size/flags positions vary slightly).
 - Male.FAR entry0 (`animations.txt`, 237B?) data location.
