@@ -120,7 +120,6 @@
         <Track>DJH2304</Track>
         <Track>DJH2311</Track>
         <Track>DJH2315</Track>
-        <Track>DJH2999</Track>
       </Tracks>
     </Setlist>
 
@@ -275,7 +274,6 @@
         </Tracks>
       </Setlist>
       
-      <Setlist selectableinfem="no">
         <Setlist selectableinfem="yes">
       <IDTag>DANCE SETLIST</IDTag>
       <Name>STR_DANCE</Name>

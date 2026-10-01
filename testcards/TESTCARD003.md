@@ -30,7 +30,7 @@ X360/Xml/Credits.xml        <- mods/DJH3/0156_Credits_redeux.xml
    2-track Universal, 6 clubs, stock credits).
 2. Add the overlay, reboot.
 3. Check, in order:
-   - [ ] Quickplay Universal lists 92 tracks?
+   - [ ] Quickplay Universal lists 91 tracks?
    - [ ] Vocals Setlist present (68 tracks)?
    - [ ] DANCE SETLIST has 10 tracks?
    - [ ] Empire shows Ibiza02 Encore (lb 569)?
