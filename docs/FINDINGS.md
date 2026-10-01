@@ -92,7 +92,9 @@ levers (QA only).
 - Video gap: retail carries 253 BIKs / 3.2GB (max 283MB — full venue
   films); DJH3 milestone has 119 / 279MB. Venue movies are the
   thinnest part of the proto — retail films are the upgrade path if
-  mappable.
+  mappable. Mapping mechanism open: zero .bik refs in any XML, XEX,
+  or FAR (only Intro + logo named). Likely venue-ID convention or
+  binary table — swap-and-see on hardware.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
