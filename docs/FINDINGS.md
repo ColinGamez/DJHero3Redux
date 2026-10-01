@@ -98,6 +98,12 @@ levers (QA only).
 - Audio architecture confirmed at scale: 85 retail banks map 1:1 to
   tracks via self-ID (zero multi-track banks). Remaining 148 are
   system banks (crowd/menus/SFX). One bank per mix, always.
+- Attributes evolution Jul 6→27 (1460→1585 vars, +165/−40):
+  vocals pitch detector + robot effect + beat-pulse analysis
+  (bass/mid thresholds) + ProFaceOff checks ADDED; scripted-player
+  difficulty tables + frontend mix volumes REMOVED. Vocals engine
+  dates to this 3-week window. Engine going object-oriented
+  (C++ class-scoped vars appear).
 - Battle chunks share one vocabulary (players p1/p2/both × streams
   A/B/S + checkpoints); DJH3's 7 extra shapes are NAMED test chunks
   (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
