@@ -115,6 +115,8 @@ levers (QA only).
   tolerances, streak arrows, achievement-named thresholds like
   `s_uChiggedyCheckpointWin`). The retail battle modes carried over
   working — no doors needed here.
+- Party Play: single engine var (`s_fPartyPlayTimeout`) — UI-driven
+  mode riding existing systems. No doors needed.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
