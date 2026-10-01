@@ -95,6 +95,9 @@ levers (QA only).
   mappable. Mapping mechanism open: zero .bik refs in any XML, XEX,
   or FAR (only Intro + logo named). Likely venue-ID convention or
   binary table — swap-and-see on hardware.
+- Audio architecture confirmed at scale: 85 retail banks map 1:1 to
+  tracks via self-ID (zero multi-track banks). Remaining 148 are
+  system banks (crowd/menus/SFX). One bank per mix, always.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
