@@ -8,8 +8,9 @@ engine to list and play a custom mix.
 
 1. `X360/TrackPacks/DJH9001/Male.FAR` — byte-identical clone of DJH2002.
 2. `X360/AUDIO/Audiotracks/DJH9001/` — full clone (DJ.fsb + 5 charts +
-   Visual_Markup + Vocals, 8 files), PLUS 10 lane-flipped notes in
-   `DJ_Beginner.xmk` (b15 0→100, first forged chart edit).
+   Visual_Markup + Vocals, 8 files), PLUS a forged Beginner chart:
+   10 lane flips (b15 0→100) + 333 Expert-only notes injected from
+   DJH2002's own Expert (485→818 events). Same mix, spicier chart.
 3. `X360/Xml/Quickplay.xml` — `<Track>DJH9001</Track>` first in ungrouped
    Tracks. Stock backed up to `Quickplay.stock.xml`.
 
@@ -22,8 +23,8 @@ engine to list and play a custom mix.
    (name comes from the TRAC text DB — expect blank or garbage text;
    THAT IS FINE, it still proves listing works).
 4. Play it on Beginner with ears open: the first 10 notes should play
-   on the OTHER stream vs DJH2002. Same mix, different lanes = chart
-   modding proven by ear.
+   on the OTHER stream vs DJH2002, and extra Expert notes appear
+   throughout. Same mix, custom chart = chart modding proven by ear.
 
 ## Report back
 
