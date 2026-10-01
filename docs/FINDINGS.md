@@ -107,6 +107,10 @@ levers (QA only).
   switch, `s_bBothPlattersCanStreamPress`, per-platter tolerances
   [0]/[1], dual timing windows per difficulty (INSIDE/OUTSIDE). Like
   vocals: engine done, entry missing.
+- Freestyle sampling engine present too (rating thresholds, FSS group
+  volumes, auto-hit sampler, per-difficulty overlap tolerances,
+  `g_bPlayFreestyleSample`). Also: a variable literally named
+  `s_uJesusChristNumFSStars`. Dev humor survives.
 - TST live-blend test tracks are registered citizens (8 in TrackList);
   TST3001-3004 (commented Ibiza1 Branching block) reference
   UNREGISTERED tracks — dead pointers, do not revive as-is.
