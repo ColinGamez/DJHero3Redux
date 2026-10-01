@@ -784,6 +784,23 @@
 
     <!-- sets -->
     <Setlists>
+      <!-- REDEUX dance battle: all dance-marked openers + exclusives -->
+      <Setlist>
+        <IDTag>Vegas Dance Battle</IDTag>
+        <LeaderboardID>574</LeaderboardID>
+        <Cover>Cover39</Cover>
+        <Name>STR_DANCE</Name>
+        <Tracks>
+          <Track>DJH2292</Track>
+          <Track>DJH2195</Track>
+          <Track>DJH2181</Track>
+        </Tracks>
+        <Challenge>
+          <Criteria type="win" />
+          <Unlocks>
+          </Unlocks>
+        </Challenge>
+      </Setlist>
 
       <Setlist megamix="yes">
         <IDTag>Las Vegas Opening Night</IDTag>
