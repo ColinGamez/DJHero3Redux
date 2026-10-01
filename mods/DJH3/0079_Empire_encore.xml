@@ -810,7 +810,7 @@
         <Tracks>
           <Track>DJH2304</Track>
           <Track>DJH2311</Track>
-          <Track>DJH2315</Track>
+          <Track>DJH2024</Track>
         </Tracks>
         <Challenge>
           <Criteria type="win" />
@@ -1257,7 +1257,7 @@
         <Tracks>
           <Track>DJH2304</Track>
           <Track>DJH2311</Track>
-          <Track>DJH2315</Track>
+          <Track>DJH2024</Track>
         </Tracks>
         <Challenge>
           <Criteria type="completesetlist" />
