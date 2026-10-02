@@ -102,6 +102,11 @@ levers (QA only).
   One all-zero track: DJH285 — registered with audio folder, zero
   playtest scores, zero setlist refs, zero audio banks. A ghost entry:
   planned, never built beyond a registry row.
+- Ghost audit (registry × bank tags): DJH2259/2260/2262 also bankless
+  yet listed in London Opening Night — stock setlist with unsoundable
+  mixes. DJH2999 HAS a bank (0278); TST2237/3015 banked (0279/0282).
+  TUT audio absent from disc entirely (tutorial silent on proto,
+  consistent with WIP/no-voice).
 - Attributes evolution Jul 6→27 (1460→1585 vars, +165/−40):
   vocals pitch detector + robot effect + beat-pulse analysis
   (bass/mid thresholds) + ProFaceOff checks ADDED; scripted-player
