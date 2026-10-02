@@ -110,6 +110,11 @@ levers (QA only).
   and ONLINE frontend sounds (hurryup/setlistedit/unlock/venue-move)
   REMOVED. They were simplifying: new mic path in, online frontend
   and legacy tables out.
+- Correction: mic scales weren't cut, they MIGRATED scope (`s_f` →
+  `g_f` PS3/Wii/X360 compressor + volume params, same window as the
+  C++ object-orientation shift). Same params, new scope. Also added:
+  battle-counter achievements (CombatVeteran, PFO, YouWantSome,
+  HigherGrade), pitch-inaccuracy model, medal/tag unlock flags.
 - Battle chunks share one vocabulary (players p1/p2/both × streams
   A/B/S + checkpoints); DJH3's 7 extra shapes are NAMED test chunks
   (Test1/2/3/6/10/11), retail a strict subset. No Twin Deck patterns
