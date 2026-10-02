@@ -88,3 +88,12 @@
 
 220 + 120 + 90 + 230 + 110 + 120 + 75 + 35 = **1000G, 50 achievements.**
 Carried from DJH2: 24. New: 26.
+
+## QA + alternates
+
+- Medal/tag debug flags exist in attributes (`s_bUnlockMedalsAndTags`,
+  `s_bUnlockRandomMedalsAndTags`) — same QA class as `UnlockAll*`.
+- Cut in favor of the final 50 but viable swaps: CombatVeteran (battle
+  count), PFO battles, HigherGrade wins, Contender, Button Masher,
+  Crate Digger, New Threads, En Sink. All sourced from the same
+  scaffolding.
