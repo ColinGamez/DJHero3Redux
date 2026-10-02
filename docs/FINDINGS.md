@@ -98,6 +98,10 @@ levers (QA only).
 - Audio architecture confirmed at scale: 85 retail banks map 1:1 to
   tracks via self-ID (zero multi-track banks). Remaining 148 are
   system banks (crowd/menus/SFX). One bank per mix, always.
+- Score calibration: Expert defaults average 6x Beginner (38k→238k).
+  One all-zero track: DJH285 — registered with audio folder, zero
+  playtest scores, zero setlist refs, zero audio banks. A ghost entry:
+  planned, never built beyond a registry row.
 - Attributes evolution Jul 6→27 (1460→1585 vars, +165/−40):
   vocals pitch detector + robot effect + beat-pulse analysis
   (bass/mid thresholds) + ProFaceOff checks ADDED; scripted-player
